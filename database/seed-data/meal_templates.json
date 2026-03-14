@@ -1,0 +1,4285 @@
+[
+  {
+    "goal": "gain_weight",
+    "source_pdf": "gain.pdf",
+    "day_number": 1,
+    "meal_type": "morning_drink",
+    "meal_name": "Black Coffee",
+    "time": "06:30",
+    "instructions": "Serve hot without sugar.",
+    "ingredients": [
+      {
+        "name": "Black Coffee",
+        "quantity": "1 cup",
+        "calories": 2.0,
+        "protein_g": 0.0,
+        "cost_aed": 1.0
+      }
+    ],
+    "calories": 2.0,
+    "protein_g": 0.0,
+    "carbs_g": 0.0,
+    "fat_g": 0.0,
+    "cost_aed": 1.0
+  },
+  {
+    "goal": "gain_weight",
+    "source_pdf": "gain.pdf",
+    "day_number": 1,
+    "meal_type": "breakfast",
+    "meal_name": "Omelette with Avocado",
+    "time": "07:00",
+    "instructions": "Prepare an omelette with eggs and serve with sliced avocado.",
+    "ingredients": [
+      {
+        "name": "Egg",
+        "quantity": "150g",
+        "calories": 222.0,
+        "protein_g": 19.5,
+        "cost_aed": 1.99
+      },
+      {
+        "name": "Avocado",
+        "quantity": "100g",
+        "calories": 174.06,
+        "protein_g": 2.0,
+        "cost_aed": 6.0
+      }
+    ],
+    "calories": 396.0,
+    "protein_g": 21.5,
+    "carbs_g": 9.7,
+    "fat_g": 29.7,
+    "cost_aed": 7.99
+  },
+  {
+    "goal": "gain_weight",
+    "source_pdf": "gain.pdf",
+    "day_number": 1,
+    "meal_type": "lunch",
+    "meal_name": "Grilled Chicken with Quinoa Salad",
+    "time": "12:30",
+    "instructions": "Grill the chicken fillet and serve with quinoa salad.",
+    "ingredients": [
+      {
+        "name": "Chicken Fillet",
+        "quantity": "200g",
+        "calories": 330.0,
+        "protein_g": 62.0,
+        "cost_aed": 3.34
+      },
+      {
+        "name": "Quinoa Salad",
+        "quantity": "100g",
+        "calories": 400.0,
+        "protein_g": 18.0,
+        "cost_aed": 13.24
+      }
+    ],
+    "calories": 730.0,
+    "protein_g": 80.0,
+    "carbs_g": 45.0,
+    "fat_g": 27.2,
+    "cost_aed": 16.59
+  },
+  {
+    "goal": "gain_weight",
+    "source_pdf": "gain.pdf",
+    "day_number": 1,
+    "meal_type": "snack",
+    "meal_name": "Banana",
+    "time": "15:30",
+    "instructions": "Peel and enjoy the banana.",
+    "ingredients": [
+      {
+        "name": "Banana",
+        "quantity": "100g",
+        "calories": 98.69,
+        "protein_g": 1.09,
+        "cost_aed": 3.0
+      }
+    ],
+    "calories": 99.0,
+    "protein_g": 1.1,
+    "carbs_g": 22.8,
+    "fat_g": 0.3,
+    "cost_aed": 3.0
+  },
+  {
+    "goal": "gain_weight",
+    "source_pdf": "gain.pdf",
+    "day_number": 1,
+    "meal_type": "dinner",
+    "meal_name": "Spaghetti with Tomato Sauce",
+    "time": "19:00",
+    "instructions": "Cook spaghetti and mix with tomato sauce.",
+    "ingredients": [
+      {
+        "name": "Spaghetti",
+        "quantity": "200g",
+        "calories": 740.0,
+        "protein_g": 26.0,
+        "cost_aed": 2.49
+      },
+      {
+        "name": "Tomato Sauce",
+        "quantity": "50g",
+        "calories": 43.7,
+        "protein_g": 1.8,
+        "cost_aed": 1.94
+      }
+    ],
+    "calories": 784.0,
+    "protein_g": 27.8,
+    "carbs_g": 160.1,
+    "fat_g": 3.3,
+    "cost_aed": 4.42
+  },
+  {
+    "goal": "gain_weight",
+    "source_pdf": "gain.pdf",
+    "day_number": 2,
+    "meal_type": "morning_drink",
+    "meal_name": "Black Coffee",
+    "time": "06:30",
+    "instructions": "Serve hot without sugar.",
+    "ingredients": [
+      {
+        "name": "Black Coffee",
+        "quantity": "1 cup",
+        "calories": 2.0,
+        "protein_g": 0.0,
+        "cost_aed": 1.0
+      }
+    ],
+    "calories": 2.0,
+    "protein_g": 0.0,
+    "carbs_g": 0.0,
+    "fat_g": 0.0,
+    "cost_aed": 1.0
+  },
+  {
+    "goal": "gain_weight",
+    "source_pdf": "gain.pdf",
+    "day_number": 2,
+    "meal_type": "breakfast",
+    "meal_name": "Egg Avocado Toast",
+    "time": "07:00",
+    "instructions": "Prepare scrambled eggs and serve on top of mashed avocado spread on toast.",
+    "ingredients": [
+      {
+        "name": "Egg",
+        "quantity": "2",
+        "calories": 296.0,
+        "protein_g": 26.0,
+        "cost_aed": 2.66
+      },
+      {
+        "name": "Avocado",
+        "quantity": "100g",
+        "calories": 174.06,
+        "protein_g": 2.0,
+        "cost_aed": 6.0
+      }
+    ],
+    "calories": 470.0,
+    "protein_g": 28.0,
+    "carbs_g": 10.1,
+    "fat_g": 34.7,
+    "cost_aed": 8.66
+  },
+  {
+    "goal": "gain_weight",
+    "source_pdf": "gain.pdf",
+    "day_number": 2,
+    "meal_type": "lunch",
+    "meal_name": "Beef and Red Rice",
+    "time": "12:30",
+    "instructions": "Grill beef and serve with cooked red rice.",
+    "ingredients": [
+      {
+        "name": "Beef",
+        "quantity": "150g",
+        "calories": 345.0,
+        "protein_g": 39.0,
+        "cost_aed": 6.1
+      },
+      {
+        "name": "Red Rice",
+        "quantity": "150g",
+        "calories": 216.915,
+        "protein_g": 4.5045,
+        "cost_aed": 1.44
+      }
+    ],
+    "calories": 562.0,
+    "protein_g": 43.5,
+    "carbs_g": 46.7,
+    "fat_g": 23.0,
+    "cost_aed": 7.54
+  },
+  {
+    "goal": "gain_weight",
+    "source_pdf": "gain.pdf",
+    "day_number": 2,
+    "meal_type": "snack",
+    "meal_name": "Banana",
+    "time": "15:00",
+    "instructions": "Peel and enjoy the banana.",
+    "ingredients": [
+      {
+        "name": "Banana",
+        "quantity": "150g",
+        "calories": 148.035,
+        "protein_g": 1.635,
+        "cost_aed": 4.5
+      }
+    ],
+    "calories": 148.0,
+    "protein_g": 1.6,
+    "carbs_g": 34.3,
+    "fat_g": 0.5,
+    "cost_aed": 4.5
+  },
+  {
+    "goal": "gain_weight",
+    "source_pdf": "gain.pdf",
+    "day_number": 2,
+    "meal_type": "dinner",
+    "meal_name": "Grilled Salmon with Green Rice",
+    "time": "19:00",
+    "instructions": "Grill the salmon and serve it with cooked green rice.",
+    "ingredients": [
+      {
+        "name": "Salmon",
+        "quantity": "150g",
+        "calories": 309.0,
+        "protein_g": 30.6,
+        "cost_aed": 10.73
+      },
+      {
+        "name": "Green Rice",
+        "quantity": "150g",
+        "calories": 221.25,
+        "protein_g": 4.59,
+        "cost_aed": 1.44
+      }
+    ],
+    "calories": 530.0,
+    "protein_g": 35.2,
+    "carbs_g": 47.7,
+    "fat_g": 20.0,
+    "cost_aed": 12.16
+  },
+  {
+    "goal": "gain_weight",
+    "source_pdf": "gain.pdf",
+    "day_number": 2,
+    "meal_type": "dessert",
+    "meal_name": "Dark Chocolate Cranberry Ball",
+    "time": "20:30",
+    "instructions": "Enjoy the dark chocolate cranberry ball as a dessert.",
+    "ingredients": [
+      {
+        "name": "Dark Chocolate Cranberry Ball",
+        "quantity": "1",
+        "calories": 137.0,
+        "protein_g": 6.4,
+        "cost_aed": 6.3
+      }
+    ],
+    "calories": 137.0,
+    "protein_g": 6.4,
+    "carbs_g": 16.0,
+    "fat_g": 3.2,
+    "cost_aed": 6.3
+  },
+  {
+    "goal": "gain_weight",
+    "source_pdf": "gain.pdf",
+    "day_number": 3,
+    "meal_type": "morning_drink",
+    "meal_name": "Black Coffee",
+    "time": "06:30",
+    "instructions": "Serve hot without sugar.",
+    "ingredients": [
+      {
+        "name": "Black Coffee",
+        "quantity": "1 cup",
+        "calories": 2.0,
+        "protein_g": 0.0,
+        "cost_aed": 1.0
+      }
+    ],
+    "calories": 2.0,
+    "protein_g": 0.0,
+    "carbs_g": 0.0,
+    "fat_g": 0.0,
+    "cost_aed": 1.0
+  },
+  {
+    "goal": "gain_weight",
+    "source_pdf": "gain.pdf",
+    "day_number": 3,
+    "meal_type": "breakfast",
+    "meal_name": "Egg and Avocado Toast",
+    "time": "07:00",
+    "instructions": "Cook the egg and serve on top of mashed avocado on toast.",
+    "ingredients": [
+      {
+        "name": "Egg",
+        "quantity": "100g",
+        "calories": 148.0,
+        "protein_g": 13.0,
+        "cost_aed": 1.33
+      },
+      {
+        "name": "Avocado",
+        "quantity": "100g",
+        "calories": 174.06,
+        "protein_g": 2.0,
+        "cost_aed": 6.0
+      }
+    ],
+    "calories": 322.0,
+    "protein_g": 15.0,
+    "carbs_g": 9.3,
+    "fat_g": 24.7,
+    "cost_aed": 7.33
+  },
+  {
+    "goal": "gain_weight",
+    "source_pdf": "gain.pdf",
+    "day_number": 3,
+    "meal_type": "lunch",
+    "meal_name": "Grilled Chicken with Sweet Potato",
+    "time": "12:30",
+    "instructions": "Grill the chicken fillet and serve with baked sweet potato.",
+    "ingredients": [
+      {
+        "name": "Chicken Fillet",
+        "quantity": "150g",
+        "calories": 247.5,
+        "protein_g": 46.5,
+        "cost_aed": 2.51
+      },
+      {
+        "name": "Sweet Potato",
+        "quantity": "200g",
+        "calories": 172.0,
+        "protein_g": 3.6,
+        "cost_aed": 1.65
+      }
+    ],
+    "calories": 420.0,
+    "protein_g": 50.1,
+    "carbs_g": 40.0,
+    "fat_g": 5.6,
+    "cost_aed": 4.16
+  },
+  {
+    "goal": "gain_weight",
+    "source_pdf": "gain.pdf",
+    "day_number": 3,
+    "meal_type": "snack",
+    "meal_name": "Mixed Fruit Salad",
+    "time": "16:00",
+    "instructions": "Mix diced apple and kiwi for a refreshing fruit salad.",
+    "ingredients": [
+      {
+        "name": "Apple",
+        "quantity": "100g",
+        "calories": 57.81,
+        "protein_g": 0.26,
+        "cost_aed": 0.5
+      },
+      {
+        "name": "Kiwi",
+        "quantity": "100g",
+        "calories": 67.88,
+        "protein_g": 1.14,
+        "cost_aed": 15.0
+      }
+    ],
+    "calories": 126.0,
+    "protein_g": 1.4,
+    "carbs_g": 28.5,
+    "fat_g": 0.7,
+    "cost_aed": 15.5
+  },
+  {
+    "goal": "gain_weight",
+    "source_pdf": "gain.pdf",
+    "day_number": 3,
+    "meal_type": "dinner",
+    "meal_name": "Pasta with Tomato Sauce",
+    "time": "19:00",
+    "instructions": "Cook the pasta and mix with heated tomato sauce.",
+    "ingredients": [
+      {
+        "name": "Pasta",
+        "quantity": "100g",
+        "calories": 370.0,
+        "protein_g": 13.0,
+        "cost_aed": 2.2
+      },
+      {
+        "name": "Tomato Sauce",
+        "quantity": "50g",
+        "calories": 43.7,
+        "protein_g": 1.8,
+        "cost_aed": 1.94
+      }
+    ],
+    "calories": 414.0,
+    "protein_g": 14.8,
+    "carbs_g": 85.1,
+    "fat_g": 1.8,
+    "cost_aed": 4.14
+  },
+  {
+    "goal": "gain_weight",
+    "source_pdf": "gain.pdf",
+    "day_number": 4,
+    "meal_type": "morning_drink",
+    "meal_name": "Black Coffee",
+    "time": "06:30",
+    "instructions": "Serve hot without sugar.",
+    "ingredients": [
+      {
+        "name": "Black Coffee",
+        "quantity": "1 cup",
+        "calories": 2.0,
+        "protein_g": 0.0,
+        "cost_aed": 1.0
+      }
+    ],
+    "calories": 2.0,
+    "protein_g": 0.0,
+    "carbs_g": 0.0,
+    "fat_g": 0.0,
+    "cost_aed": 1.0
+  },
+  {
+    "goal": "gain_weight",
+    "source_pdf": "gain.pdf",
+    "day_number": 4,
+    "meal_type": "breakfast",
+    "meal_name": "Avocado & Egg on Toast",
+    "time": "07:00",
+    "instructions": "Mash avocado and spread on toast. Top with a fried or poached egg.",
+    "ingredients": [
+      {
+        "name": "Avocado",
+        "quantity": "100g",
+        "calories": 174.06,
+        "protein_g": 2.0,
+        "cost_aed": 6.0
+      },
+      {
+        "name": "Egg",
+        "quantity": "100g",
+        "calories": 148.0,
+        "protein_g": 13.0,
+        "cost_aed": 1.33
+      }
+    ],
+    "calories": 322.0,
+    "protein_g": 15.0,
+    "carbs_g": 9.3,
+    "fat_g": 24.7,
+    "cost_aed": 7.33
+  },
+  {
+    "goal": "gain_weight",
+    "source_pdf": "gain.pdf",
+    "day_number": 4,
+    "meal_type": "lunch",
+    "meal_name": "Grilled Fish with Yellow Rice",
+    "time": "12:30",
+    "instructions": "Grill the fish and serve with cooked yellow rice.",
+    "ingredients": [
+      {
+        "name": "Fish",
+        "quantity": "200g",
+        "calories": 180.0,
+        "protein_g": 34.0,
+        "cost_aed": 2.09
+      },
+      {
+        "name": "Yellow Rice",
+        "quantity": "200g",
+        "calories": 280.8,
+        "protein_g": 5.832,
+        "cost_aed": 1.91
+      }
+    ],
+    "calories": 461.0,
+    "protein_g": 39.8,
+    "carbs_g": 60.5,
+    "fat_g": 4.6,
+    "cost_aed": 4.0
+  },
+  {
+    "goal": "gain_weight",
+    "source_pdf": "gain.pdf",
+    "day_number": 4,
+    "meal_type": "snack",
+    "meal_name": "Strawberry & Dragon Fruit Bowl",
+    "time": "16:00",
+    "instructions": "Slice fruits and mix in a bowl.",
+    "ingredients": [
+      {
+        "name": "Strawberry",
+        "quantity": "100g",
+        "calories": 36.1,
+        "protein_g": 0.67,
+        "cost_aed": 15.0
+      },
+      {
+        "name": "Dragon Fruit",
+        "quantity": "100g",
+        "calories": 50.6,
+        "protein_g": 1.1,
+        "cost_aed": 23.0
+      }
+    ],
+    "calories": 87.0,
+    "protein_g": 1.8,
+    "carbs_g": 18.8,
+    "fat_g": 0.8,
+    "cost_aed": 38.0
+  },
+  {
+    "goal": "gain_weight",
+    "source_pdf": "gain.pdf",
+    "day_number": 4,
+    "meal_type": "dinner",
+    "meal_name": "Beef with Grilled Potato",
+    "time": "19:00",
+    "instructions": "Grill beef and potatoes, serve hot.",
+    "ingredients": [
+      {
+        "name": "Beef",
+        "quantity": "150g",
+        "calories": 345.0,
+        "protein_g": 39.0,
+        "cost_aed": 6.1
+      },
+      {
+        "name": "Grilled Potato",
+        "quantity": "150g",
+        "calories": 165.0,
+        "protein_g": 4.2,
+        "cost_aed": 1.49
+      }
+    ],
+    "calories": 510.0,
+    "protein_g": 43.2,
+    "carbs_g": 43.5,
+    "fat_g": 26.6,
+    "cost_aed": 7.59
+  },
+  {
+    "goal": "gain_weight",
+    "source_pdf": "gain.pdf",
+    "day_number": 5,
+    "meal_type": "morning_drink",
+    "meal_name": "Black Coffee",
+    "time": "06:30",
+    "instructions": "Serve hot without sugar.",
+    "ingredients": [
+      {
+        "name": "Black Coffee",
+        "quantity": "1 cup",
+        "calories": 2.0,
+        "protein_g": 0.0,
+        "cost_aed": 1.0
+      }
+    ],
+    "calories": 2.0,
+    "protein_g": 0.0,
+    "carbs_g": 0.0,
+    "fat_g": 0.0,
+    "cost_aed": 1.0
+  },
+  {
+    "goal": "gain_weight",
+    "source_pdf": "gain.pdf",
+    "day_number": 5,
+    "meal_type": "breakfast",
+    "meal_name": "Chicken Fillet with Avocado",
+    "time": "07:00",
+    "instructions": "Grill the chicken fillet. Serve with sliced avocado.",
+    "ingredients": [
+      {
+        "name": "Chicken Fillet",
+        "quantity": "150g",
+        "calories": 247.5,
+        "protein_g": 46.5,
+        "cost_aed": 2.51
+      },
+      {
+        "name": "Avocado",
+        "quantity": "100g",
+        "calories": 174.06,
+        "protein_g": 2.0,
+        "cost_aed": 6.0
+      }
+    ],
+    "calories": 422.0,
+    "protein_g": 48.5,
+    "carbs_g": 8.5,
+    "fat_g": 20.1,
+    "cost_aed": 8.51
+  },
+  {
+    "goal": "gain_weight",
+    "source_pdf": "gain.pdf",
+    "day_number": 5,
+    "meal_type": "lunch",
+    "meal_name": "Beef with Red Rice",
+    "time": "12:00",
+    "instructions": "Cook the beef and red rice separately. Serve together.",
+    "ingredients": [
+      {
+        "name": "Beef",
+        "quantity": "100g",
+        "calories": 230.0,
+        "protein_g": 26.0,
+        "cost_aed": 4.07
+      },
+      {
+        "name": "Red Rice",
+        "quantity": "100g",
+        "calories": 144.61,
+        "protein_g": 3.003,
+        "cost_aed": 0.96
+      }
+    ],
+    "calories": 375.0,
+    "protein_g": 29.0,
+    "carbs_g": 31.1,
+    "fat_g": 15.3,
+    "cost_aed": 5.03
+  },
+  {
+    "goal": "gain_weight",
+    "source_pdf": "gain.pdf",
+    "day_number": 5,
+    "meal_type": "snack",
+    "meal_name": "Banana",
+    "time": "15:00",
+    "instructions": "Peel and enjoy.",
+    "ingredients": [
+      {
+        "name": "Banana",
+        "quantity": "100g",
+        "calories": 98.69,
+        "protein_g": 1.09,
+        "cost_aed": 3.0
+      }
+    ],
+    "calories": 99.0,
+    "protein_g": 1.1,
+    "carbs_g": 22.8,
+    "fat_g": 0.3,
+    "cost_aed": 3.0
+  },
+  {
+    "goal": "gain_weight",
+    "source_pdf": "gain.pdf",
+    "day_number": 5,
+    "meal_type": "dinner",
+    "meal_name": "Salmon with Green Rice",
+    "time": "19:00",
+    "instructions": "Grill the salmon. Serve with cooked green rice.",
+    "ingredients": [
+      {
+        "name": "Salmon",
+        "quantity": "100g",
+        "calories": 206.0,
+        "protein_g": 20.4,
+        "cost_aed": 7.15
+      },
+      {
+        "name": "Green Rice",
+        "quantity": "100g",
+        "calories": 147.5,
+        "protein_g": 3.06,
+        "cost_aed": 0.96
+      }
+    ],
+    "calories": 354.0,
+    "protein_g": 23.5,
+    "carbs_g": 31.8,
+    "fat_g": 13.3,
+    "cost_aed": 8.11
+  },
+  {
+    "goal": "gain_weight",
+    "source_pdf": "gain.pdf",
+    "day_number": 6,
+    "meal_type": "morning_drink",
+    "meal_name": "Black Coffee",
+    "time": "06:30",
+    "instructions": "Serve hot without sugar.",
+    "ingredients": [
+      {
+        "name": "Black Coffee",
+        "quantity": "1 cup",
+        "calories": 2.0,
+        "protein_g": 0.0,
+        "cost_aed": 1.0
+      }
+    ],
+    "calories": 2.0,
+    "protein_g": 0.0,
+    "carbs_g": 0.0,
+    "fat_g": 0.0,
+    "cost_aed": 1.0
+  },
+  {
+    "goal": "gain_weight",
+    "source_pdf": "gain.pdf",
+    "day_number": 6,
+    "meal_type": "breakfast",
+    "meal_name": "Avocado and Egg Toast",
+    "time": "07:30",
+    "instructions": "Toast bread, mash avocado and spread on toast, top with a fried or boiled egg.",
+    "ingredients": [
+      {
+        "name": "Avocado",
+        "quantity": "100g",
+        "calories": 174.06,
+        "protein_g": 2.0,
+        "cost_aed": 6.0
+      },
+      {
+        "name": "Egg",
+        "quantity": "100g",
+        "calories": 148.0,
+        "protein_g": 13.0,
+        "cost_aed": 1.33
+      }
+    ],
+    "calories": 322.0,
+    "protein_g": 15.0,
+    "carbs_g": 9.3,
+    "fat_g": 24.7,
+    "cost_aed": 7.33
+  },
+  {
+    "goal": "gain_weight",
+    "source_pdf": "gain.pdf",
+    "day_number": 6,
+    "meal_type": "lunch",
+    "meal_name": "Grilled Shrimp with Red Rice",
+    "time": "12:30",
+    "instructions": "Grill shrimps and serve with cooked red rice.",
+    "ingredients": [
+      {
+        "name": "Shrimp",
+        "quantity": "150g",
+        "calories": 127.5,
+        "protein_g": 30.15,
+        "cost_aed": 4.87
+      },
+      {
+        "name": "Red Rice",
+        "quantity": "150g",
+        "calories": 216.915,
+        "protein_g": 4.5045,
+        "cost_aed": 1.44
+      }
+    ],
+    "calories": 344.0,
+    "protein_g": 34.7,
+    "carbs_g": 47.0,
+    "fat_g": 1.2,
+    "cost_aed": 6.3
+  },
+  {
+    "goal": "gain_weight",
+    "source_pdf": "gain.pdf",
+    "day_number": 6,
+    "meal_type": "snack",
+    "meal_name": "Greek Yogurt with Mango",
+    "time": "16:00",
+    "instructions": "Serve diced mango with a cup of Greek yogurt (not included in the ingredients list).",
+    "ingredients": [
+      {
+        "name": "Mango",
+        "quantity": "100g",
+        "calories": 66.62,
+        "protein_g": 0.82,
+        "cost_aed": 20.0
+      }
+    ],
+    "calories": 67.0,
+    "protein_g": 0.8,
+    "carbs_g": 15.0,
+    "fat_g": 0.4,
+    "cost_aed": 20.0
+  },
+  {
+    "goal": "gain_weight",
+    "source_pdf": "gain.pdf",
+    "day_number": 6,
+    "meal_type": "dinner",
+    "meal_name": "Grilled Chicken with Potato",
+    "time": "19:00",
+    "instructions": "Grill chicken fillet and serve with boiled or roasted potato.",
+    "ingredients": [
+      {
+        "name": "Chicken Fillet",
+        "quantity": "150g",
+        "calories": 247.5,
+        "protein_g": 46.5,
+        "cost_aed": 2.51
+      },
+      {
+        "name": "Potato",
+        "quantity": "150g",
+        "calories": 263.25,
+        "protein_g": 5.94,
+        "cost_aed": 0.53
+      }
+    ],
+    "calories": 511.0,
+    "protein_g": 52.4,
+    "carbs_g": 41.5,
+    "fat_g": 14.2,
+    "cost_aed": 3.04
+  },
+  {
+    "goal": "gain_weight",
+    "source_pdf": "gain.pdf",
+    "day_number": 6,
+    "meal_type": "dessert",
+    "meal_name": "Dark Chocolate Cranberry Ball",
+    "time": "20:30",
+    "instructions": "Enjoy as a sweet treat.",
+    "ingredients": [
+      {
+        "name": "Dark Chocolate Cranberry Ball",
+        "quantity": "1 piece",
+        "calories": 137.0,
+        "protein_g": 6.4,
+        "cost_aed": 6.3
+      }
+    ],
+    "calories": 137.0,
+    "protein_g": 6.4,
+    "carbs_g": 16.0,
+    "fat_g": 3.2,
+    "cost_aed": 6.3
+  },
+  {
+    "goal": "gain_weight",
+    "source_pdf": "gain.pdf",
+    "day_number": 7,
+    "meal_type": "morning_drink",
+    "meal_name": "Black Coffee",
+    "time": "06:30",
+    "instructions": "Serve hot without sugar.",
+    "ingredients": [
+      {
+        "name": "Black Coffee",
+        "quantity": "1 cup",
+        "calories": 2.0,
+        "protein_g": 0.0,
+        "cost_aed": 1.0
+      }
+    ],
+    "calories": 2.0,
+    "protein_g": 0.0,
+    "carbs_g": 0.0,
+    "fat_g": 0.0,
+    "cost_aed": 1.0
+  },
+  {
+    "goal": "gain_weight",
+    "source_pdf": "gain.pdf",
+    "day_number": 7,
+    "meal_type": "breakfast",
+    "meal_name": "Shrimp & Avocado on Toast",
+    "time": "07:00",
+    "instructions": "Grill the shrimp and serve on a bed of rice, topped with sliced avocado.",
+    "ingredients": [
+      {
+        "name": "Shrimp",
+        "quantity": "100g",
+        "calories": 85.0,
+        "protein_g": 20.1,
+        "cost_aed": 3.25
+      },
+      {
+        "name": "Avocado",
+        "quantity": "50g",
+        "calories": 87.03,
+        "protein_g": 1.0,
+        "cost_aed": 3.0
+      },
+      {
+        "name": "Rice",
+        "quantity": "50g",
+        "calories": 65.0,
+        "protein_g": 1.35,
+        "cost_aed": 0.33
+      }
+    ],
+    "calories": 237.0,
+    "protein_g": 22.5,
+    "carbs_g": 18.5,
+    "fat_g": 8.0,
+    "cost_aed": 6.58
+  },
+  {
+    "goal": "gain_weight",
+    "source_pdf": "gain.pdf",
+    "day_number": 7,
+    "meal_type": "lunch",
+    "meal_name": "Grilled Beef with Potato",
+    "time": "12:30",
+    "instructions": "Grill the beef and serve with boiled potatoes.",
+    "ingredients": [
+      {
+        "name": "Beef",
+        "quantity": "120g",
+        "calories": 276.0,
+        "protein_g": 31.2,
+        "cost_aed": 4.88
+      },
+      {
+        "name": "Potato",
+        "quantity": "100g",
+        "calories": 175.5,
+        "protein_g": 3.96,
+        "cost_aed": 0.35
+      }
+    ],
+    "calories": 452.0,
+    "protein_g": 35.2,
+    "carbs_g": 27.7,
+    "fat_g": 23.9,
+    "cost_aed": 5.23
+  },
+  {
+    "goal": "gain_weight",
+    "source_pdf": "gain.pdf",
+    "day_number": 7,
+    "meal_type": "snack",
+    "meal_name": "Fruit Mix",
+    "time": "16:00",
+    "instructions": "Slice the fruits and serve fresh.",
+    "ingredients": [
+      {
+        "name": "Pineapple",
+        "quantity": "100g",
+        "calories": 55.72,
+        "protein_g": 0.54,
+        "cost_aed": 8.0
+      },
+      {
+        "name": "Watermelon",
+        "quantity": "100g",
+        "calories": 33.99,
+        "protein_g": 0.61,
+        "cost_aed": 4.0
+      }
+    ],
+    "calories": 90.0,
+    "protein_g": 1.2,
+    "carbs_g": 20.7,
+    "fat_g": 0.3,
+    "cost_aed": 12.0
+  },
+  {
+    "goal": "gain_weight",
+    "source_pdf": "gain.pdf",
+    "day_number": 7,
+    "meal_type": "dinner",
+    "meal_name": "Fish with Green Rice",
+    "time": "19:00",
+    "instructions": "Grill the fish and serve with green rice.",
+    "ingredients": [
+      {
+        "name": "Fish",
+        "quantity": "150g",
+        "calories": 135.0,
+        "protein_g": 25.5,
+        "cost_aed": 1.57
+      },
+      {
+        "name": "Green Rice",
+        "quantity": "100g",
+        "calories": 147.5,
+        "protein_g": 3.06,
+        "cost_aed": 0.96
+      }
+    ],
+    "calories": 283.0,
+    "protein_g": 28.6,
+    "carbs_g": 31.8,
+    "fat_g": 3.3,
+    "cost_aed": 2.52
+  },
+  {
+    "goal": "gain_weight",
+    "source_pdf": "gain.pdf",
+    "day_number": 7,
+    "meal_type": "dessert",
+    "meal_name": "Chocolate Brownie",
+    "time": "20:30",
+    "instructions": "Serve the chocolate brownie as a dessert.",
+    "ingredients": [
+      {
+        "name": "Chocolate Brownie",
+        "quantity": "45g",
+        "calories": 200.0,
+        "protein_g": 2.5,
+        "cost_aed": 6.3
+      }
+    ],
+    "calories": 200.0,
+    "protein_g": 2.5,
+    "carbs_g": 14.0,
+    "fat_g": 14.0,
+    "cost_aed": 6.3
+  },
+  {
+    "goal": "lose_weight",
+    "source_pdf": "loss.pdf",
+    "day_number": 1,
+    "meal_type": "morning_drink",
+    "meal_name": "Black Coffee",
+    "time": "06:30",
+    "instructions": "Serve hot without sugar.",
+    "ingredients": [
+      {
+        "name": "Black Coffee",
+        "quantity": "1 cup",
+        "calories": 2.0,
+        "protein_g": 0.0,
+        "cost_aed": 1.0
+      }
+    ],
+    "calories": 2.0,
+    "protein_g": 0.0,
+    "carbs_g": 0.0,
+    "fat_g": 0.0,
+    "cost_aed": 1.0
+  },
+  {
+    "goal": "lose_weight",
+    "source_pdf": "loss.pdf",
+    "day_number": 1,
+    "meal_type": "breakfast",
+    "meal_name": "Salmon & Avocado",
+    "time": "07:00",
+    "instructions": "Grill the salmon and serve with sliced avocado.",
+    "ingredients": [
+      {
+        "name": "Salmon",
+        "quantity": "100g",
+        "calories": 206.0,
+        "protein_g": 20.4,
+        "cost_aed": 7.15
+      },
+      {
+        "name": "Avocado",
+        "quantity": "50g",
+        "calories": 87.03,
+        "protein_g": 1.0,
+        "cost_aed": 3.0
+      }
+    ],
+    "calories": 293.0,
+    "protein_g": 21.4,
+    "carbs_g": 4.3,
+    "fat_g": 20.3,
+    "cost_aed": 10.15
+  },
+  {
+    "goal": "lose_weight",
+    "source_pdf": "loss.pdf",
+    "day_number": 1,
+    "meal_type": "lunch",
+    "meal_name": "Chicken Fillet with Green Rice",
+    "time": "12:30",
+    "instructions": "Grill the chicken fillet and serve with cooked green rice.",
+    "ingredients": [
+      {
+        "name": "Chicken Fillet",
+        "quantity": "150g",
+        "calories": 247.5,
+        "protein_g": 46.5,
+        "cost_aed": 2.51
+      },
+      {
+        "name": "Green Rice",
+        "quantity": "100g",
+        "calories": 147.5,
+        "protein_g": 3.06,
+        "cost_aed": 0.96
+      }
+    ],
+    "calories": 395.0,
+    "protein_g": 49.6,
+    "carbs_g": 31.8,
+    "fat_g": 5.7,
+    "cost_aed": 3.47
+  },
+  {
+    "goal": "lose_weight",
+    "source_pdf": "loss.pdf",
+    "day_number": 1,
+    "meal_type": "snack",
+    "meal_name": "Banana",
+    "time": "15:00",
+    "instructions": "Peel and enjoy a fresh banana.",
+    "ingredients": [
+      {
+        "name": "Banana",
+        "quantity": "120g",
+        "calories": 118.43,
+        "protein_g": 1.308,
+        "cost_aed": 3.6
+      }
+    ],
+    "calories": 118.0,
+    "protein_g": 1.3,
+    "carbs_g": 27.4,
+    "fat_g": 0.4,
+    "cost_aed": 3.6
+  },
+  {
+    "goal": "lose_weight",
+    "source_pdf": "loss.pdf",
+    "day_number": 1,
+    "meal_type": "dinner",
+    "meal_name": "Shrimp & Quinoa Salad",
+    "time": "19:00",
+    "instructions": "Cook the shrimp and mix with quinoa salad ingredients.",
+    "ingredients": [
+      {
+        "name": "Shrimp",
+        "quantity": "150g",
+        "calories": 127.5,
+        "protein_g": 30.15,
+        "cost_aed": 4.87
+      },
+      {
+        "name": "Quinoa Salad",
+        "quantity": "100g",
+        "calories": 400.0,
+        "protein_g": 18.0,
+        "cost_aed": 13.24
+      }
+    ],
+    "calories": 528.0,
+    "protein_g": 48.2,
+    "carbs_g": 45.3,
+    "fat_g": 20.8,
+    "cost_aed": 18.11
+  },
+  {
+    "goal": "lose_weight",
+    "source_pdf": "loss.pdf",
+    "day_number": 2,
+    "meal_type": "morning_drink",
+    "meal_name": "Black Coffee",
+    "time": "06:30",
+    "instructions": "Serve hot without sugar.",
+    "ingredients": [
+      {
+        "name": "Black Coffee",
+        "quantity": "1 cup",
+        "calories": 2.0,
+        "protein_g": 0.0,
+        "cost_aed": 1.0
+      }
+    ],
+    "calories": 2.0,
+    "protein_g": 0.0,
+    "carbs_g": 0.0,
+    "fat_g": 0.0,
+    "cost_aed": 1.0
+  },
+  {
+    "goal": "lose_weight",
+    "source_pdf": "loss.pdf",
+    "day_number": 2,
+    "meal_type": "breakfast",
+    "meal_name": "Egg and Avocado",
+    "time": "07:00",
+    "instructions": "Cook the egg as preferred and serve with sliced avocado.",
+    "ingredients": [
+      {
+        "name": "Egg",
+        "quantity": "100g",
+        "calories": 148.0,
+        "protein_g": 13.0,
+        "cost_aed": 1.33
+      },
+      {
+        "name": "Avocado",
+        "quantity": "100g",
+        "calories": 174.06,
+        "protein_g": 2.0,
+        "cost_aed": 6.0
+      }
+    ],
+    "calories": 322.0,
+    "protein_g": 15.0,
+    "carbs_g": 9.3,
+    "fat_g": 24.7,
+    "cost_aed": 7.33
+  },
+  {
+    "goal": "lose_weight",
+    "source_pdf": "loss.pdf",
+    "day_number": 2,
+    "meal_type": "lunch",
+    "meal_name": "Grilled Fish with Red Rice",
+    "time": "12:30",
+    "instructions": "Grill the fish and serve with cooked red rice.",
+    "ingredients": [
+      {
+        "name": "Fish",
+        "quantity": "200g",
+        "calories": 180.0,
+        "protein_g": 34.0,
+        "cost_aed": 2.09
+      },
+      {
+        "name": "Red Rice",
+        "quantity": "150g",
+        "calories": 216.915,
+        "protein_g": 4.5045,
+        "cost_aed": 1.44
+      }
+    ],
+    "calories": 397.0,
+    "protein_g": 38.5,
+    "carbs_g": 46.7,
+    "fat_g": 4.5,
+    "cost_aed": 3.53
+  },
+  {
+    "goal": "lose_weight",
+    "source_pdf": "loss.pdf",
+    "day_number": 2,
+    "meal_type": "snack",
+    "meal_name": "Banana",
+    "time": "16:00",
+    "instructions": "Peel and eat the banana.",
+    "ingredients": [
+      {
+        "name": "Banana",
+        "quantity": "120g",
+        "calories": 118.428,
+        "protein_g": 1.308,
+        "cost_aed": 3.6
+      }
+    ],
+    "calories": 118.0,
+    "protein_g": 1.3,
+    "carbs_g": 27.4,
+    "fat_g": 0.4,
+    "cost_aed": 3.6
+  },
+  {
+    "goal": "lose_weight",
+    "source_pdf": "loss.pdf",
+    "day_number": 2,
+    "meal_type": "dinner",
+    "meal_name": "Beef with Sweet Potato",
+    "time": "19:00",
+    "instructions": "Cook the beef and serve with roasted sweet potato.",
+    "ingredients": [
+      {
+        "name": "Beef",
+        "quantity": "150g",
+        "calories": 345.0,
+        "protein_g": 39.0,
+        "cost_aed": 6.1
+      },
+      {
+        "name": "Sweet Potato",
+        "quantity": "200g",
+        "calories": 172.0,
+        "protein_g": 3.6,
+        "cost_aed": 1.65
+      }
+    ],
+    "calories": 517.0,
+    "protein_g": 42.6,
+    "carbs_g": 40.0,
+    "fat_g": 22.7,
+    "cost_aed": 7.75
+  },
+  {
+    "goal": "lose_weight",
+    "source_pdf": "loss.pdf",
+    "day_number": 3,
+    "meal_type": "morning_drink",
+    "meal_name": "Black Coffee",
+    "time": "06:30",
+    "instructions": "Serve hot without sugar.",
+    "ingredients": [
+      {
+        "name": "Black Coffee",
+        "quantity": "1 cup",
+        "calories": 2.0,
+        "protein_g": 0.0,
+        "cost_aed": 1.0
+      }
+    ],
+    "calories": 2.0,
+    "protein_g": 0.0,
+    "carbs_g": 0.0,
+    "fat_g": 0.0,
+    "cost_aed": 1.0
+  },
+  {
+    "goal": "lose_weight",
+    "source_pdf": "loss.pdf",
+    "day_number": 3,
+    "meal_type": "breakfast",
+    "meal_name": "Quinoa Salad with Avocado",
+    "time": "07:00",
+    "instructions": "Serve the quinoa salad with sliced avocado on top.",
+    "ingredients": [
+      {
+        "name": "Quinoa Salad",
+        "quantity": "200g",
+        "calories": 800.0,
+        "protein_g": 36.0,
+        "cost_aed": 26.49
+      }
+    ],
+    "calories": 800.0,
+    "protein_g": 36.0,
+    "carbs_g": 90.0,
+    "fat_g": 40.0,
+    "cost_aed": 26.49
+  },
+  {
+    "goal": "lose_weight",
+    "source_pdf": "loss.pdf",
+    "day_number": 3,
+    "meal_type": "lunch",
+    "meal_name": "Grilled Fish with Yellow Rice",
+    "time": "12:30",
+    "instructions": "Grill the fish and serve with a side of yellow rice.",
+    "ingredients": [
+      {
+        "name": "Fish",
+        "quantity": "200g",
+        "calories": 180.0,
+        "protein_g": 34.0,
+        "cost_aed": 2.09
+      },
+      {
+        "name": "Yellow Rice",
+        "quantity": "100g",
+        "calories": 140.4,
+        "protein_g": 2.916,
+        "cost_aed": 0.96
+      }
+    ],
+    "calories": 320.0,
+    "protein_g": 36.9,
+    "carbs_g": 30.2,
+    "fat_g": 4.3,
+    "cost_aed": 3.05
+  },
+  {
+    "goal": "lose_weight",
+    "source_pdf": "loss.pdf",
+    "day_number": 3,
+    "meal_type": "snack",
+    "meal_name": "Fruit Salad",
+    "time": "16:00",
+    "instructions": "Mix the fruits in a bowl and serve chilled.",
+    "ingredients": [
+      {
+        "name": "Pineapple",
+        "quantity": "100g",
+        "calories": 55.72,
+        "protein_g": 0.54,
+        "cost_aed": 8.0
+      },
+      {
+        "name": "Papaya",
+        "quantity": "100g",
+        "calories": 47.5,
+        "protein_g": 0.47,
+        "cost_aed": 6.0
+      }
+    ],
+    "calories": 103.0,
+    "protein_g": 1.0,
+    "carbs_g": 23.9,
+    "fat_g": 0.4,
+    "cost_aed": 14.0
+  },
+  {
+    "goal": "lose_weight",
+    "source_pdf": "loss.pdf",
+    "day_number": 3,
+    "meal_type": "dinner",
+    "meal_name": "Beef Stir-Fry with Vegetables",
+    "time": "19:00",
+    "instructions": "Stir-fry beef with vegetables and serve with green rice.",
+    "ingredients": [
+      {
+        "name": "Beef",
+        "quantity": "150g",
+        "calories": 345.0,
+        "protein_g": 39.0,
+        "cost_aed": 6.1
+      },
+      {
+        "name": "Green Rice",
+        "quantity": "100g",
+        "calories": 147.5,
+        "protein_g": 3.06,
+        "cost_aed": 0.96
+      }
+    ],
+    "calories": 493.0,
+    "protein_g": 42.1,
+    "carbs_g": 31.8,
+    "fat_g": 22.8,
+    "cost_aed": 7.06
+  },
+  {
+    "goal": "lose_weight",
+    "source_pdf": "loss.pdf",
+    "day_number": 3,
+    "meal_type": "snack",
+    "meal_name": "Strawberries",
+    "time": "21:00",
+    "instructions": "Serve fresh strawberries.",
+    "ingredients": [
+      {
+        "name": "Strawberry",
+        "quantity": "150g",
+        "calories": 54.15,
+        "protein_g": 1.005,
+        "cost_aed": 22.5
+      }
+    ],
+    "calories": 54.0,
+    "protein_g": 1.0,
+    "carbs_g": 11.5,
+    "fat_g": 0.4,
+    "cost_aed": 22.5
+  },
+  {
+    "goal": "lose_weight",
+    "source_pdf": "loss.pdf",
+    "day_number": 4,
+    "meal_type": "morning_drink",
+    "meal_name": "Black Coffee",
+    "time": "06:30",
+    "instructions": "Serve hot without sugar.",
+    "ingredients": [
+      {
+        "name": "Black Coffee",
+        "quantity": "1 cup",
+        "calories": 2.0,
+        "protein_g": 0.0,
+        "cost_aed": 1.0
+      }
+    ],
+    "calories": 2.0,
+    "protein_g": 0.0,
+    "carbs_g": 0.0,
+    "fat_g": 0.0,
+    "cost_aed": 1.0
+  },
+  {
+    "goal": "lose_weight",
+    "source_pdf": "loss.pdf",
+    "day_number": 4,
+    "meal_type": "breakfast",
+    "meal_name": "Avocado and Egg on Red Rice",
+    "time": "07:00",
+    "instructions": "Cook red rice. Slice avocado and fry an egg. Serve egg and avocado on top of red rice.",
+    "ingredients": [
+      {
+        "name": "Avocado",
+        "quantity": "50g",
+        "calories": 87.03,
+        "protein_g": 1.0,
+        "cost_aed": 3.0
+      },
+      {
+        "name": "Egg",
+        "quantity": "1 large",
+        "calories": 148.0,
+        "protein_g": 13.0,
+        "cost_aed": 1.33
+      },
+      {
+        "name": "Red Rice",
+        "quantity": "100g",
+        "calories": 144.61,
+        "protein_g": 3.003,
+        "cost_aed": 0.96
+      }
+    ],
+    "calories": 380.0,
+    "protein_g": 17.0,
+    "carbs_g": 36.2,
+    "fat_g": 17.7,
+    "cost_aed": 5.29
+  },
+  {
+    "goal": "lose_weight",
+    "source_pdf": "loss.pdf",
+    "day_number": 4,
+    "meal_type": "lunch",
+    "meal_name": "Chicken Fillet with Sweet Potato and Cantaloupe",
+    "time": "12:30",
+    "instructions": "Grill chicken fillet. Boil sweet potato until tender. Serve with sliced cantaloupe on the side.",
+    "ingredients": [
+      {
+        "name": "Chicken Fillet",
+        "quantity": "150g",
+        "calories": 247.5,
+        "protein_g": 46.5,
+        "cost_aed": 2.51
+      },
+      {
+        "name": "Sweet Potato",
+        "quantity": "200g",
+        "calories": 172.0,
+        "protein_g": 3.6,
+        "cost_aed": 1.65
+      },
+      {
+        "name": "Cantaloupe",
+        "quantity": "100g",
+        "calories": 37.71,
+        "protein_g": 0.84,
+        "cost_aed": 6.0
+      }
+    ],
+    "calories": 457.0,
+    "protein_g": 50.9,
+    "carbs_g": 48.2,
+    "fat_g": 5.8,
+    "cost_aed": 10.16
+  },
+  {
+    "goal": "lose_weight",
+    "source_pdf": "loss.pdf",
+    "day_number": 4,
+    "meal_type": "snack",
+    "meal_name": "Grapes and Blackberry Mix",
+    "time": "16:00",
+    "instructions": "Mix grapes and blackberries in a bowl and serve.",
+    "ingredients": [
+      {
+        "name": "Grapes",
+        "quantity": "50g",
+        "calories": 34.95,
+        "protein_g": 0.36,
+        "cost_aed": 5.0
+      },
+      {
+        "name": "Blackberry",
+        "quantity": "50g",
+        "calories": 24.205,
+        "protein_g": 0.695,
+        "cost_aed": 7.5
+      }
+    ],
+    "calories": 59.0,
+    "protein_g": 1.1,
+    "carbs_g": 13.9,
+    "fat_g": 0.3,
+    "cost_aed": 12.5
+  },
+  {
+    "goal": "lose_weight",
+    "source_pdf": "loss.pdf",
+    "day_number": 5,
+    "meal_type": "morning_drink",
+    "meal_name": "Black Coffee",
+    "time": "06:30",
+    "instructions": "Serve hot without sugar.",
+    "ingredients": [
+      {
+        "name": "Black Coffee",
+        "quantity": "1 cup",
+        "calories": 2.0,
+        "protein_g": 0.0,
+        "cost_aed": 1.0
+      }
+    ],
+    "calories": 2.0,
+    "protein_g": 0.0,
+    "carbs_g": 0.0,
+    "fat_g": 0.0,
+    "cost_aed": 1.0
+  },
+  {
+    "goal": "lose_weight",
+    "source_pdf": "loss.pdf",
+    "day_number": 5,
+    "meal_type": "breakfast",
+    "meal_name": "Avocado and Egg",
+    "time": "07:00",
+    "instructions": "Slice avocado and serve with a boiled egg.",
+    "ingredients": [
+      {
+        "name": "Avocado",
+        "quantity": "100g",
+        "calories": 174.06,
+        "protein_g": 2.0,
+        "cost_aed": 6.0
+      },
+      {
+        "name": "Egg",
+        "quantity": "100g",
+        "calories": 148.0,
+        "protein_g": 13.0,
+        "cost_aed": 1.33
+      }
+    ],
+    "calories": 322.0,
+    "protein_g": 15.0,
+    "carbs_g": 9.3,
+    "fat_g": 24.7,
+    "cost_aed": 7.33
+  },
+  {
+    "goal": "lose_weight",
+    "source_pdf": "loss.pdf",
+    "day_number": 5,
+    "meal_type": "lunch",
+    "meal_name": "Grilled Chicken with Sweet Potato",
+    "time": "12:30",
+    "instructions": "Grill the chicken fillet and serve with roasted sweet potato.",
+    "ingredients": [
+      {
+        "name": "Chicken Fillet",
+        "quantity": "150g",
+        "calories": 247.5,
+        "protein_g": 46.5,
+        "cost_aed": 2.51
+      },
+      {
+        "name": "Sweet Potato",
+        "quantity": "200g",
+        "calories": 172.0,
+        "protein_g": 3.6,
+        "cost_aed": 1.65
+      }
+    ],
+    "calories": 420.0,
+    "protein_g": 50.1,
+    "carbs_g": 40.0,
+    "fat_g": 5.6,
+    "cost_aed": 4.16
+  },
+  {
+    "goal": "lose_weight",
+    "source_pdf": "loss.pdf",
+    "day_number": 5,
+    "meal_type": "snack",
+    "meal_name": "Kiwi and Blackberry",
+    "time": "15:30",
+    "instructions": "Serve kiwi and blackberry as a fresh fruit snack.",
+    "ingredients": [
+      {
+        "name": "Kiwi",
+        "quantity": "100g",
+        "calories": 67.88,
+        "protein_g": 1.14,
+        "cost_aed": 1.5
+      },
+      {
+        "name": "Blackberry",
+        "quantity": "100g",
+        "calories": 48.41,
+        "protein_g": 1.39,
+        "cost_aed": 1.5
+      }
+    ],
+    "calories": 116.0,
+    "protein_g": 2.5,
+    "carbs_g": 24.3,
+    "fat_g": 1.0,
+    "cost_aed": 3.0
+  },
+  {
+    "goal": "lose_weight",
+    "source_pdf": "loss.pdf",
+    "day_number": 5,
+    "meal_type": "dinner",
+    "meal_name": "Fish with Green Rice",
+    "time": "19:00",
+    "instructions": "Grill fish and serve with cooked green rice.",
+    "ingredients": [
+      {
+        "name": "Fish",
+        "quantity": "200g",
+        "calories": 180.0,
+        "protein_g": 34.0,
+        "cost_aed": 2.09
+      },
+      {
+        "name": "Green Rice",
+        "quantity": "150g",
+        "calories": 221.25,
+        "protein_g": 4.59,
+        "cost_aed": 1.44
+      }
+    ],
+    "calories": 401.0,
+    "protein_g": 38.6,
+    "carbs_g": 47.7,
+    "fat_g": 4.5,
+    "cost_aed": 3.53
+  },
+  {
+    "goal": "lose_weight",
+    "source_pdf": "loss.pdf",
+    "day_number": 6,
+    "meal_type": "morning_drink",
+    "meal_name": "Black Coffee",
+    "time": "06:30",
+    "instructions": "Serve hot without sugar.",
+    "ingredients": [
+      {
+        "name": "Black Coffee",
+        "quantity": "1 cup",
+        "calories": 2.0,
+        "protein_g": 0.0,
+        "cost_aed": 1.0
+      }
+    ],
+    "calories": 2.0,
+    "protein_g": 0.0,
+    "carbs_g": 0.0,
+    "fat_g": 0.0,
+    "cost_aed": 1.0
+  },
+  {
+    "goal": "lose_weight",
+    "source_pdf": "loss.pdf",
+    "day_number": 6,
+    "meal_type": "breakfast",
+    "meal_name": "Chicken Fillet with Sweet Potato",
+    "time": "07:00",
+    "instructions": "Grill the chicken fillet and serve it with baked sweet potato.",
+    "ingredients": [
+      {
+        "name": "Chicken Fillet",
+        "quantity": "150g",
+        "calories": 247.5,
+        "protein_g": 46.5,
+        "cost_aed": 2.51
+      },
+      {
+        "name": "Sweet Potato",
+        "quantity": "100g",
+        "calories": 86.0,
+        "protein_g": 1.8,
+        "cost_aed": 0.83
+      }
+    ],
+    "calories": 334.0,
+    "protein_g": 48.3,
+    "carbs_g": 20.0,
+    "fat_g": 5.5,
+    "cost_aed": 3.33
+  },
+  {
+    "goal": "lose_weight",
+    "source_pdf": "loss.pdf",
+    "day_number": 6,
+    "meal_type": "lunch",
+    "meal_name": "Grilled Fish with Red Rice",
+    "time": "12:30",
+    "instructions": "Grill the fish and serve with steamed red rice.",
+    "ingredients": [
+      {
+        "name": "Fish",
+        "quantity": "200g",
+        "calories": 180.0,
+        "protein_g": 34.0,
+        "cost_aed": 2.09
+      },
+      {
+        "name": "Red Rice",
+        "quantity": "150g",
+        "calories": 216.915,
+        "protein_g": 4.5045,
+        "cost_aed": 1.44
+      }
+    ],
+    "calories": 397.0,
+    "protein_g": 38.5,
+    "carbs_g": 46.7,
+    "fat_g": 4.5,
+    "cost_aed": 3.53
+  },
+  {
+    "goal": "lose_weight",
+    "source_pdf": "loss.pdf",
+    "day_number": 6,
+    "meal_type": "dinner",
+    "meal_name": "Quinoa Salad with Grilled Shrimp",
+    "time": "19:00",
+    "instructions": "Serve the quinoa salad with grilled shrimp.",
+    "ingredients": [
+      {
+        "name": "Quinoa Salad",
+        "quantity": "200g",
+        "calories": 800.0,
+        "protein_g": 36.0,
+        "cost_aed": 26.49
+      },
+      {
+        "name": "Shrimp",
+        "quantity": "100g",
+        "calories": 85.0,
+        "protein_g": 20.1,
+        "cost_aed": 3.25
+      }
+    ],
+    "calories": 885.0,
+    "protein_g": 56.1,
+    "carbs_g": 90.2,
+    "fat_g": 40.5,
+    "cost_aed": 29.73
+  },
+  {
+    "goal": "lose_weight",
+    "source_pdf": "loss.pdf",
+    "day_number": 6,
+    "meal_type": "snack",
+    "meal_name": "Mango",
+    "time": "15:30",
+    "instructions": "Slice the mango and serve chilled.",
+    "ingredients": [
+      {
+        "name": "Mango",
+        "quantity": "150g",
+        "calories": 99.93,
+        "protein_g": 1.23,
+        "cost_aed": 3.0
+      }
+    ],
+    "calories": 100.0,
+    "protein_g": 1.2,
+    "carbs_g": 22.5,
+    "fat_g": 0.6,
+    "cost_aed": 3.0
+  },
+  {
+    "goal": "lose_weight",
+    "source_pdf": "loss.pdf",
+    "day_number": 7,
+    "meal_type": "morning_drink",
+    "meal_name": "Black Coffee",
+    "time": "06:30",
+    "instructions": "Serve hot without sugar.",
+    "ingredients": [
+      {
+        "name": "Black Coffee",
+        "quantity": "1 cup",
+        "calories": 2.0,
+        "protein_g": 0.0,
+        "cost_aed": 1.0
+      }
+    ],
+    "calories": 2.0,
+    "protein_g": 0.0,
+    "carbs_g": 0.0,
+    "fat_g": 0.0,
+    "cost_aed": 1.0
+  },
+  {
+    "goal": "lose_weight",
+    "source_pdf": "loss.pdf",
+    "day_number": 7,
+    "meal_type": "breakfast",
+    "meal_name": "Chicken Fillet with Cantaloupe",
+    "time": "07:00",
+    "instructions": "Grill the chicken fillet. Slice the cantaloupe and serve on the side.",
+    "ingredients": [
+      {
+        "name": "Chicken Fillet",
+        "quantity": "100g",
+        "calories": 165.0,
+        "protein_g": 31.0,
+        "cost_aed": 1.67
+      },
+      {
+        "name": "Cantaloupe",
+        "quantity": "200g",
+        "calories": 75.42,
+        "protein_g": 1.68,
+        "cost_aed": 12.0
+      }
+    ],
+    "calories": 240.0,
+    "protein_g": 32.7,
+    "carbs_g": 16.3,
+    "fat_g": 4.0,
+    "cost_aed": 13.67
+  },
+  {
+    "goal": "lose_weight",
+    "source_pdf": "loss.pdf",
+    "day_number": 7,
+    "meal_type": "lunch",
+    "meal_name": "Grilled Potato with Fish",
+    "time": "13:00",
+    "instructions": "Grill the potato and fish. Serve together.",
+    "ingredients": [
+      {
+        "name": "Grilled Potato",
+        "quantity": "200g",
+        "calories": 220.0,
+        "protein_g": 5.6,
+        "cost_aed": 1.98
+      },
+      {
+        "name": "Fish",
+        "quantity": "150g",
+        "calories": 135.0,
+        "protein_g": 25.5,
+        "cost_aed": 1.57
+      }
+    ],
+    "calories": 355.0,
+    "protein_g": 31.1,
+    "carbs_g": 58.0,
+    "fat_g": 8.4,
+    "cost_aed": 3.55
+  },
+  {
+    "goal": "lose_weight",
+    "source_pdf": "loss.pdf",
+    "day_number": 7,
+    "meal_type": "snack",
+    "meal_name": "Strawberry & Pineapple Mix",
+    "time": "16:00",
+    "instructions": "Mix strawberries and pineapple. Serve fresh.",
+    "ingredients": [
+      {
+        "name": "Strawberry",
+        "quantity": "100g",
+        "calories": 36.1,
+        "protein_g": 0.67,
+        "cost_aed": 15.0
+      },
+      {
+        "name": "Pineapple",
+        "quantity": "100g",
+        "calories": 55.72,
+        "protein_g": 0.54,
+        "cost_aed": 8.0
+      }
+    ],
+    "calories": 92.0,
+    "protein_g": 1.2,
+    "carbs_g": 20.8,
+    "fat_g": 0.4,
+    "cost_aed": 23.0
+  },
+  {
+    "goal": "lose_weight",
+    "source_pdf": "loss.pdf",
+    "day_number": 7,
+    "meal_type": "dinner",
+    "meal_name": "Spaghetti with Tomato Sauce",
+    "time": "19:00",
+    "instructions": "Cook the spaghetti and serve with tomato sauce.",
+    "ingredients": [
+      {
+        "name": "Spaghetti",
+        "quantity": "100g",
+        "calories": 370.0,
+        "protein_g": 13.0,
+        "cost_aed": 1.24
+      }
+    ],
+    "calories": 414.0,
+    "protein_g": 14.8,
+    "carbs_g": 85.1,
+    "fat_g": 1.8,
+    "cost_aed": 3.18
+  },
+  {
+    "goal": "maintain_weight",
+    "source_pdf": "normal.pdf",
+    "day_number": 1,
+    "meal_type": "morning_drink",
+    "meal_name": "Black Coffee",
+    "time": "06:30",
+    "instructions": "Serve hot without sugar.",
+    "ingredients": [
+      {
+        "name": "Black Coffee",
+        "quantity": "1 cup",
+        "calories": 2.0,
+        "protein_g": 0.0,
+        "cost_aed": 1.0
+      }
+    ],
+    "calories": 2.0,
+    "protein_g": 0.0,
+    "carbs_g": 0.0,
+    "fat_g": 0.0,
+    "cost_aed": 1.0
+  },
+  {
+    "goal": "maintain_weight",
+    "source_pdf": "normal.pdf",
+    "day_number": 1,
+    "meal_type": "breakfast",
+    "meal_name": "Chicken Fillet with Avocado",
+    "time": "07:00",
+    "instructions": "Grill the chicken fillet and serve with sliced avocado.",
+    "ingredients": [
+      {
+        "name": "Chicken Fillet",
+        "quantity": "100g",
+        "calories": 165.0,
+        "protein_g": 31.0,
+        "cost_aed": 1.67
+      },
+      {
+        "name": "Avocado",
+        "quantity": "100g",
+        "calories": 174.06,
+        "protein_g": 2.0,
+        "cost_aed": 6.0
+      }
+    ],
+    "calories": 339.0,
+    "protein_g": 33.0,
+    "carbs_g": 8.5,
+    "fat_g": 18.3,
+    "cost_aed": 7.67
+  },
+  {
+    "goal": "maintain_weight",
+    "source_pdf": "normal.pdf",
+    "day_number": 1,
+    "meal_type": "lunch",
+    "meal_name": "Grilled Salmon with Quinoa Salad",
+    "time": "12:00",
+    "instructions": "Grill the salmon and serve with quinoa salad.",
+    "ingredients": [
+      {
+        "name": "Salmon",
+        "quantity": "150g",
+        "calories": 309.0,
+        "protein_g": 30.6,
+        "cost_aed": 10.73
+      },
+      {
+        "name": "Quinoa Salad",
+        "quantity": "100g",
+        "calories": 400.0,
+        "protein_g": 18.0,
+        "cost_aed": 13.24
+      }
+    ],
+    "calories": 709.0,
+    "protein_g": 48.6,
+    "carbs_g": 45.0,
+    "fat_g": 39.5,
+    "cost_aed": 23.97
+  },
+  {
+    "goal": "maintain_weight",
+    "source_pdf": "normal.pdf",
+    "day_number": 1,
+    "meal_type": "snack",
+    "meal_name": "Banana",
+    "time": "16:00",
+    "instructions": "Peel and eat the banana.",
+    "ingredients": [
+      {
+        "name": "Banana",
+        "quantity": "100g",
+        "calories": 98.69,
+        "protein_g": 1.09,
+        "cost_aed": 3.0
+      }
+    ],
+    "calories": 99.0,
+    "protein_g": 1.1,
+    "carbs_g": 22.8,
+    "fat_g": 0.3,
+    "cost_aed": 3.0
+  },
+  {
+    "goal": "maintain_weight",
+    "source_pdf": "normal.pdf",
+    "day_number": 1,
+    "meal_type": "dinner",
+    "meal_name": "Beef with Grilled Potato",
+    "time": "19:00",
+    "instructions": "Grill the beef and potatoes. Serve together.",
+    "ingredients": [
+      {
+        "name": "Beef",
+        "quantity": "100g",
+        "calories": 230.0,
+        "protein_g": 26.0,
+        "cost_aed": 4.07
+      },
+      {
+        "name": "Grilled Potato",
+        "quantity": "200g",
+        "calories": 220.0,
+        "protein_g": 5.6,
+        "cost_aed": 1.98
+      }
+    ],
+    "calories": 450.0,
+    "protein_g": 31.6,
+    "carbs_g": 58.0,
+    "fat_g": 20.4,
+    "cost_aed": 6.05
+  },
+  {
+    "goal": "maintain_weight",
+    "source_pdf": "normal.pdf",
+    "day_number": 2,
+    "meal_type": "morning_drink",
+    "meal_name": "Black Coffee",
+    "time": "06:30",
+    "instructions": "Serve hot without sugar.",
+    "ingredients": [
+      {
+        "name": "Black Coffee",
+        "quantity": "1 cup",
+        "calories": 2.0,
+        "protein_g": 0.0,
+        "cost_aed": 1.0
+      }
+    ],
+    "calories": 2.0,
+    "protein_g": 0.0,
+    "carbs_g": 0.0,
+    "fat_g": 0.0,
+    "cost_aed": 1.0
+  },
+  {
+    "goal": "maintain_weight",
+    "source_pdf": "normal.pdf",
+    "day_number": 2,
+    "meal_type": "breakfast",
+    "meal_name": "Egg and Avocado",
+    "time": "07:00",
+    "instructions": "Cook eggs to your preference and serve with sliced avocado.",
+    "ingredients": [
+      {
+        "name": "Egg",
+        "quantity": "2 eggs",
+        "calories": 296.0,
+        "protein_g": 26.0,
+        "cost_aed": 2.66
+      },
+      {
+        "name": "Avocado",
+        "quantity": "50g",
+        "calories": 87.03,
+        "protein_g": 1.0,
+        "cost_aed": 3.0
+      }
+    ],
+    "calories": 383.0,
+    "protein_g": 27.0,
+    "carbs_g": 5.9,
+    "fat_g": 27.3,
+    "cost_aed": 5.66
+  },
+  {
+    "goal": "maintain_weight",
+    "source_pdf": "normal.pdf",
+    "day_number": 2,
+    "meal_type": "lunch",
+    "meal_name": "Shrimp with Green Rice",
+    "time": "13:00",
+    "instructions": "Cook shrimp and serve over green rice.",
+    "ingredients": [
+      {
+        "name": "Shrimp",
+        "quantity": "150g",
+        "calories": 127.5,
+        "protein_g": 30.15,
+        "cost_aed": 4.87
+      },
+      {
+        "name": "Green Rice",
+        "quantity": "200g",
+        "calories": 295.0,
+        "protein_g": 6.12,
+        "cost_aed": 1.91
+      }
+    ],
+    "calories": 423.0,
+    "protein_g": 36.3,
+    "carbs_g": 63.8,
+    "fat_g": 1.4,
+    "cost_aed": 6.78
+  },
+  {
+    "goal": "maintain_weight",
+    "source_pdf": "normal.pdf",
+    "day_number": 2,
+    "meal_type": "dinner",
+    "meal_name": "Beef with Sweet Potato",
+    "time": "19:00",
+    "instructions": "Grill beef and serve with baked sweet potato.",
+    "ingredients": [
+      {
+        "name": "Beef",
+        "quantity": "120g",
+        "calories": 276.0,
+        "protein_g": 31.2,
+        "cost_aed": 4.88
+      },
+      {
+        "name": "Sweet Potato",
+        "quantity": "200g",
+        "calories": 172.0,
+        "protein_g": 3.6,
+        "cost_aed": 1.65
+      }
+    ],
+    "calories": 448.0,
+    "protein_g": 34.8,
+    "carbs_g": 40.0,
+    "fat_g": 18.2,
+    "cost_aed": 6.53
+  },
+  {
+    "goal": "maintain_weight",
+    "source_pdf": "normal.pdf",
+    "day_number": 2,
+    "meal_type": "snack",
+    "meal_name": "Pineapple Slices",
+    "time": "16:00",
+    "instructions": "Serve fresh pineapple slices.",
+    "ingredients": [
+      {
+        "name": "Pineapple",
+        "quantity": "150g",
+        "calories": 83.58,
+        "protein_g": 0.81,
+        "cost_aed": 12.0
+      }
+    ],
+    "calories": 84.0,
+    "protein_g": 0.8,
+    "carbs_g": 19.7,
+    "fat_g": 0.2,
+    "cost_aed": 12.0
+  },
+  {
+    "goal": "maintain_weight",
+    "source_pdf": "normal.pdf",
+    "day_number": 3,
+    "meal_type": "morning_drink",
+    "meal_name": "Black Coffee",
+    "time": "06:30",
+    "instructions": "Serve hot without sugar.",
+    "ingredients": [
+      {
+        "name": "Black Coffee",
+        "quantity": "1 cup",
+        "calories": 2.0,
+        "protein_g": 0.0,
+        "cost_aed": 1.0
+      }
+    ],
+    "calories": 2.0,
+    "protein_g": 0.0,
+    "carbs_g": 0.0,
+    "fat_g": 0.0,
+    "cost_aed": 1.0
+  },
+  {
+    "goal": "maintain_weight",
+    "source_pdf": "normal.pdf",
+    "day_number": 3,
+    "meal_type": "breakfast",
+    "meal_name": "Egg and Avocado Toast",
+    "time": "07:00",
+    "instructions": "Cook eggs as desired and serve on toasted bread with mashed avocado.",
+    "ingredients": [
+      {
+        "name": "Egg",
+        "quantity": "2",
+        "calories": 296.0,
+        "protein_g": 26.0,
+        "cost_aed": 2.66
+      },
+      {
+        "name": "Avocado",
+        "quantity": "50g",
+        "calories": 87.03,
+        "protein_g": 1.0,
+        "cost_aed": 3.0
+      }
+    ],
+    "calories": 383.0,
+    "protein_g": 27.0,
+    "carbs_g": 5.9,
+    "fat_g": 27.3,
+    "cost_aed": 5.66
+  },
+  {
+    "goal": "maintain_weight",
+    "source_pdf": "normal.pdf",
+    "day_number": 3,
+    "meal_type": "lunch",
+    "meal_name": "Grilled Fish with Red Rice",
+    "time": "12:30",
+    "instructions": "Grill the fish and serve with cooked red rice.",
+    "ingredients": [
+      {
+        "name": "Fish",
+        "quantity": "200g",
+        "calories": 180.0,
+        "protein_g": 34.0,
+        "cost_aed": 2.09
+      },
+      {
+        "name": "Red Rice",
+        "quantity": "150g",
+        "calories": 216.915,
+        "protein_g": 4.5045,
+        "cost_aed": 1.44
+      }
+    ],
+    "calories": 397.0,
+    "protein_g": 38.5,
+    "carbs_g": 46.7,
+    "fat_g": 4.5,
+    "cost_aed": 3.53
+  },
+  {
+    "goal": "maintain_weight",
+    "source_pdf": "normal.pdf",
+    "day_number": 3,
+    "meal_type": "dinner",
+    "meal_name": "Chicken Salad",
+    "time": "19:00",
+    "instructions": "Serve the chicken salad as dinner.",
+    "ingredients": [
+      {
+        "name": "Chicken Salad",
+        "quantity": "1 serving",
+        "calories": 550.0,
+        "protein_g": 45.0,
+        "cost_aed": 15.43
+      }
+    ],
+    "calories": 550.0,
+    "protein_g": 45.0,
+    "carbs_g": 40.0,
+    "fat_g": 25.0,
+    "cost_aed": 15.43
+  },
+  {
+    "goal": "maintain_weight",
+    "source_pdf": "normal.pdf",
+    "day_number": 3,
+    "meal_type": "snack",
+    "meal_name": "Apple",
+    "time": "16:00",
+    "instructions": "Enjoy a fresh apple as a snack.",
+    "ingredients": [
+      {
+        "name": "Apple",
+        "quantity": "150g",
+        "calories": 86.715,
+        "protein_g": 0.39,
+        "cost_aed": 1.0
+      }
+    ],
+    "calories": 87.0,
+    "protein_g": 0.4,
+    "carbs_g": 20.7,
+    "fat_g": 0.3,
+    "cost_aed": 1.0
+  },
+  {
+    "goal": "maintain_weight",
+    "source_pdf": "normal.pdf",
+    "day_number": 4,
+    "meal_type": "morning_drink",
+    "meal_name": "Black Coffee",
+    "time": "06:30",
+    "instructions": "Serve hot without sugar.",
+    "ingredients": [
+      {
+        "name": "Black Coffee",
+        "quantity": "1 cup",
+        "calories": 2.0,
+        "protein_g": 0.0,
+        "cost_aed": 1.0
+      }
+    ],
+    "calories": 2.0,
+    "protein_g": 0.0,
+    "carbs_g": 0.0,
+    "fat_g": 0.0,
+    "cost_aed": 1.0
+  },
+  {
+    "goal": "maintain_weight",
+    "source_pdf": "normal.pdf",
+    "day_number": 4,
+    "meal_type": "breakfast",
+    "meal_name": "Scrambled Eggs with Grilled Potato",
+    "time": "07:00",
+    "instructions": "Scramble the eggs and serve with grilled potato.",
+    "ingredients": [
+      {
+        "name": "Egg",
+        "quantity": "2 eggs",
+        "calories": 296.0,
+        "protein_g": 26.0,
+        "cost_aed": 2.66
+      },
+      {
+        "name": "Grilled Potato",
+        "quantity": "100g",
+        "calories": 110.0,
+        "protein_g": 2.8,
+        "cost_aed": 0.99
+      }
+    ],
+    "calories": 406.0,
+    "protein_g": 28.8,
+    "carbs_g": 30.6,
+    "fat_g": 22.7,
+    "cost_aed": 3.65
+  },
+  {
+    "goal": "maintain_weight",
+    "source_pdf": "normal.pdf",
+    "day_number": 4,
+    "meal_type": "lunch",
+    "meal_name": "Grilled Fish with Yellow Rice",
+    "time": "12:30",
+    "instructions": "Grill the fish and serve with yellow rice.",
+    "ingredients": [
+      {
+        "name": "Fish",
+        "quantity": "150g",
+        "calories": 135.0,
+        "protein_g": 25.5,
+        "cost_aed": 1.57
+      },
+      {
+        "name": "Yellow Rice",
+        "quantity": "200g",
+        "calories": 280.8,
+        "protein_g": 5.832,
+        "cost_aed": 1.91
+      }
+    ],
+    "calories": 416.0,
+    "protein_g": 31.3,
+    "carbs_g": 60.5,
+    "fat_g": 3.6,
+    "cost_aed": 3.48
+  },
+  {
+    "goal": "maintain_weight",
+    "source_pdf": "normal.pdf",
+    "day_number": 4,
+    "meal_type": "dinner",
+    "meal_name": "Beef with Sweet Potato",
+    "time": "19:00",
+    "instructions": "Cook the beef and serve with sweet potato.",
+    "ingredients": [
+      {
+        "name": "Beef",
+        "quantity": "100g",
+        "calories": 230.0,
+        "protein_g": 26.0,
+        "cost_aed": 4.07
+      },
+      {
+        "name": "Sweet Potato",
+        "quantity": "200g",
+        "calories": 172.0,
+        "protein_g": 3.6,
+        "cost_aed": 1.65
+      }
+    ],
+    "calories": 402.0,
+    "protein_g": 29.6,
+    "carbs_g": 40.0,
+    "fat_g": 15.2,
+    "cost_aed": 5.72
+  },
+  {
+    "goal": "maintain_weight",
+    "source_pdf": "normal.pdf",
+    "day_number": 4,
+    "meal_type": "snack",
+    "meal_name": "Fruit Mix",
+    "time": "16:00",
+    "instructions": "Mix the strawberries and banana, and serve as a snack.",
+    "ingredients": [
+      {
+        "name": "Strawberry",
+        "quantity": "100g",
+        "calories": 36.1,
+        "protein_g": 0.67,
+        "cost_aed": 15.0
+      },
+      {
+        "name": "Banana",
+        "quantity": "100g",
+        "calories": 98.69,
+        "protein_g": 1.09,
+        "cost_aed": 3.0
+      }
+    ],
+    "calories": 135.0,
+    "protein_g": 1.8,
+    "carbs_g": 30.5,
+    "fat_g": 0.6,
+    "cost_aed": 18.0
+  },
+  {
+    "goal": "maintain_weight",
+    "source_pdf": "normal.pdf",
+    "day_number": 5,
+    "meal_type": "morning_drink",
+    "meal_name": "Black Coffee",
+    "time": "06:30",
+    "instructions": "Serve hot without sugar.",
+    "ingredients": [
+      {
+        "name": "Black Coffee",
+        "quantity": "1 cup",
+        "calories": 2.0,
+        "protein_g": 0.0,
+        "cost_aed": 1.0
+      }
+    ],
+    "calories": 2.0,
+    "protein_g": 0.0,
+    "carbs_g": 0.0,
+    "fat_g": 0.0,
+    "cost_aed": 1.0
+  },
+  {
+    "goal": "maintain_weight",
+    "source_pdf": "normal.pdf",
+    "day_number": 5,
+    "meal_type": "breakfast",
+    "meal_name": "Egg and Avocado on Toast",
+    "time": "07:00",
+    "instructions": "Cook the egg to your liking and serve on a slice of toasted bread with mashed avocado.",
+    "ingredients": [
+      {
+        "name": "Egg",
+        "quantity": "100g",
+        "calories": 148.0,
+        "protein_g": 13.0,
+        "cost_aed": 1.33
+      },
+      {
+        "name": "Avocado",
+        "quantity": "50g",
+        "calories": 87.03,
+        "protein_g": 1.0,
+        "cost_aed": 3.0
+      }
+    ],
+    "calories": 235.0,
+    "protein_g": 14.0,
+    "carbs_g": 5.1,
+    "fat_g": 17.3,
+    "cost_aed": 4.33
+  },
+  {
+    "goal": "maintain_weight",
+    "source_pdf": "normal.pdf",
+    "day_number": 5,
+    "meal_type": "lunch",
+    "meal_name": "Grilled Fish with Green Rice",
+    "time": "12:30",
+    "instructions": "Grill the fish and serve with a side of green rice.",
+    "ingredients": [
+      {
+        "name": "Fish",
+        "quantity": "150g",
+        "calories": 135.0,
+        "protein_g": 25.5,
+        "cost_aed": 1.57
+      },
+      {
+        "name": "Green Rice",
+        "quantity": "150g",
+        "calories": 221.25,
+        "protein_g": 4.59,
+        "cost_aed": 1.44
+      }
+    ],
+    "calories": 356.0,
+    "protein_g": 30.1,
+    "carbs_g": 47.7,
+    "fat_g": 3.5,
+    "cost_aed": 3.0
+  },
+  {
+    "goal": "maintain_weight",
+    "source_pdf": "normal.pdf",
+    "day_number": 5,
+    "meal_type": "snack",
+    "meal_name": "Fruit Salad",
+    "time": "16:00",
+    "instructions": "Chop the fruits and mix together for a refreshing fruit salad.",
+    "ingredients": [
+      {
+        "name": "Apple",
+        "quantity": "100g",
+        "calories": 57.81,
+        "protein_g": 0.26,
+        "cost_aed": 2.0
+      },
+      {
+        "name": "Strawberry",
+        "quantity": "100g",
+        "calories": 36.1,
+        "protein_g": 0.67,
+        "cost_aed": 2.0
+      }
+    ],
+    "calories": 94.0,
+    "protein_g": 0.9,
+    "carbs_g": 21.5,
+    "fat_g": 0.4,
+    "cost_aed": 4.0
+  },
+  {
+    "goal": "maintain_weight",
+    "source_pdf": "normal.pdf",
+    "day_number": 5,
+    "meal_type": "dinner",
+    "meal_name": "Beef and Sweet Potato",
+    "time": "19:00",
+    "instructions": "Grill the beef and serve with roasted sweet potatoes.",
+    "ingredients": [
+      {
+        "name": "Beef",
+        "quantity": "150g",
+        "calories": 345.0,
+        "protein_g": 39.0,
+        "cost_aed": 6.1
+      },
+      {
+        "name": "Sweet Potato",
+        "quantity": "200g",
+        "calories": 172.0,
+        "protein_g": 3.6,
+        "cost_aed": 1.65
+      }
+    ],
+    "calories": 517.0,
+    "protein_g": 42.6,
+    "carbs_g": 40.0,
+    "fat_g": 22.7,
+    "cost_aed": 7.75
+  },
+  {
+    "goal": "maintain_weight",
+    "source_pdf": "normal.pdf",
+    "day_number": 6,
+    "meal_type": "morning_drink",
+    "meal_name": "Black Coffee",
+    "time": "06:30",
+    "instructions": "Serve hot without sugar.",
+    "ingredients": [
+      {
+        "name": "Black Coffee",
+        "quantity": "1 cup",
+        "calories": 2.0,
+        "protein_g": 0.0,
+        "cost_aed": 1.0
+      }
+    ],
+    "calories": 2.0,
+    "protein_g": 0.0,
+    "carbs_g": 0.0,
+    "fat_g": 0.0,
+    "cost_aed": 1.0
+  },
+  {
+    "goal": "maintain_weight",
+    "source_pdf": "normal.pdf",
+    "day_number": 6,
+    "meal_type": "breakfast",
+    "meal_name": "Egg and Avocado",
+    "time": "07:00",
+    "instructions": "Cook eggs to preference and serve with sliced avocado.",
+    "ingredients": [
+      {
+        "name": "Egg",
+        "quantity": "2 eggs",
+        "calories": 296.0,
+        "protein_g": 26.0,
+        "cost_aed": 2.66
+      },
+      {
+        "name": "Avocado",
+        "quantity": "50g",
+        "calories": 87.03,
+        "protein_g": 1.0,
+        "cost_aed": 3.0
+      }
+    ],
+    "calories": 383.0,
+    "protein_g": 27.0,
+    "carbs_g": 5.9,
+    "fat_g": 27.3,
+    "cost_aed": 5.66
+  },
+  {
+    "goal": "maintain_weight",
+    "source_pdf": "normal.pdf",
+    "day_number": 6,
+    "meal_type": "lunch",
+    "meal_name": "Grilled Shrimp with Green Rice",
+    "time": "12:30",
+    "instructions": "Grill the shrimp and serve with cooked green rice.",
+    "ingredients": [
+      {
+        "name": "Shrimp",
+        "quantity": "150g",
+        "calories": 127.5,
+        "protein_g": 30.15,
+        "cost_aed": 4.87
+      },
+      {
+        "name": "Green Rice",
+        "quantity": "150g",
+        "calories": 221.25,
+        "protein_g": 4.59,
+        "cost_aed": 1.44
+      }
+    ],
+    "calories": 349.0,
+    "protein_g": 34.7,
+    "carbs_g": 48.0,
+    "fat_g": 1.3,
+    "cost_aed": 6.3
+  },
+  {
+    "goal": "maintain_weight",
+    "source_pdf": "normal.pdf",
+    "day_number": 6,
+    "meal_type": "dinner",
+    "meal_name": "Grilled Fish with Sweet Potato",
+    "time": "19:00",
+    "instructions": "Grill the fish and serve with baked sweet potato.",
+    "ingredients": [
+      {
+        "name": "Fish",
+        "quantity": "200g",
+        "calories": 180.0,
+        "protein_g": 34.0,
+        "cost_aed": 2.09
+      },
+      {
+        "name": "Sweet Potato",
+        "quantity": "150g",
+        "calories": 129.0,
+        "protein_g": 2.7,
+        "cost_aed": 1.24
+      }
+    ],
+    "calories": 309.0,
+    "protein_g": 36.7,
+    "carbs_g": 30.0,
+    "fat_g": 4.2,
+    "cost_aed": 3.33
+  },
+  {
+    "goal": "maintain_weight",
+    "source_pdf": "normal.pdf",
+    "day_number": 6,
+    "meal_type": "snack",
+    "meal_name": "Fruit Salad",
+    "time": "16:00",
+    "instructions": "Chop fruits and mix to create a fresh fruit salad.",
+    "ingredients": [
+      {
+        "name": "Mango",
+        "quantity": "100g",
+        "calories": 66.62,
+        "protein_g": 0.82,
+        "cost_aed": 2.0
+      },
+      {
+        "name": "Kiwi",
+        "quantity": "100g",
+        "calories": 67.88,
+        "protein_g": 1.14,
+        "cost_aed": 3.0
+      },
+      {
+        "name": "Strawberry",
+        "quantity": "100g",
+        "calories": 36.1,
+        "protein_g": 0.67,
+        "cost_aed": 3.0
+      }
+    ],
+    "calories": 171.0,
+    "protein_g": 2.6,
+    "carbs_g": 37.3,
+    "fat_g": 1.2,
+    "cost_aed": 8.0
+  },
+  {
+    "goal": "maintain_weight",
+    "source_pdf": "normal.pdf",
+    "day_number": 7,
+    "meal_type": "morning_drink",
+    "meal_name": "Black Coffee",
+    "time": "06:30",
+    "instructions": "Serve hot without sugar.",
+    "ingredients": [
+      {
+        "name": "Black Coffee",
+        "quantity": "1 cup",
+        "calories": 2.0,
+        "protein_g": 0.0,
+        "cost_aed": 1.0
+      }
+    ],
+    "calories": 2.0,
+    "protein_g": 0.0,
+    "carbs_g": 0.0,
+    "fat_g": 0.0,
+    "cost_aed": 1.0
+  },
+  {
+    "goal": "maintain_weight",
+    "source_pdf": "normal.pdf",
+    "day_number": 7,
+    "meal_type": "breakfast",
+    "meal_name": "Scrambled Eggs with Avocado",
+    "time": "07:30",
+    "instructions": "Scramble eggs and serve with sliced avocado.",
+    "ingredients": [
+      {
+        "name": "Egg",
+        "quantity": "2",
+        "calories": 296.0,
+        "protein_g": 26.0,
+        "cost_aed": 2.66
+      },
+      {
+        "name": "Avocado",
+        "quantity": "50g",
+        "calories": 87.03,
+        "protein_g": 1.0,
+        "cost_aed": 3.0
+      }
+    ],
+    "calories": 383.0,
+    "protein_g": 27.0,
+    "carbs_g": 5.9,
+    "fat_g": 27.3,
+    "cost_aed": 5.66
+  },
+  {
+    "goal": "maintain_weight",
+    "source_pdf": "normal.pdf",
+    "day_number": 7,
+    "meal_type": "lunch",
+    "meal_name": "Grilled Fish with Green Rice",
+    "time": "12:00",
+    "instructions": "Grill the fish and serve with green rice.",
+    "ingredients": [
+      {
+        "name": "Fish",
+        "quantity": "150g",
+        "calories": 135.0,
+        "protein_g": 25.5,
+        "cost_aed": 1.57
+      },
+      {
+        "name": "Green Rice",
+        "quantity": "200g",
+        "calories": 295.0,
+        "protein_g": 6.12,
+        "cost_aed": 1.91
+      }
+    ],
+    "calories": 430.0,
+    "protein_g": 31.6,
+    "carbs_g": 63.5,
+    "fat_g": 3.7,
+    "cost_aed": 3.48
+  },
+  {
+    "goal": "maintain_weight",
+    "source_pdf": "normal.pdf",
+    "day_number": 7,
+    "meal_type": "snack",
+    "meal_name": "Fruit Salad",
+    "time": "15:30",
+    "instructions": "Mix strawberries and grapes for a refreshing fruit salad.",
+    "ingredients": [
+      {
+        "name": "Strawberry",
+        "quantity": "100g",
+        "calories": 36.1,
+        "protein_g": 0.67,
+        "cost_aed": 15.0
+      },
+      {
+        "name": "Grapes",
+        "quantity": "100g",
+        "calories": 69.9,
+        "protein_g": 0.72,
+        "cost_aed": 10.0
+      }
+    ],
+    "calories": 106.0,
+    "protein_g": 1.4,
+    "carbs_g": 25.8,
+    "fat_g": 0.4,
+    "cost_aed": 25.0
+  },
+  {
+    "goal": "maintain_weight",
+    "source_pdf": "normal.pdf",
+    "day_number": 7,
+    "meal_type": "dinner",
+    "meal_name": "Beef with Sweet Potato",
+    "time": "19:00",
+    "instructions": "Grill the beef and serve with boiled sweet potato.",
+    "ingredients": [
+      {
+        "name": "Beef",
+        "quantity": "100g",
+        "calories": 230.0,
+        "protein_g": 26.0,
+        "cost_aed": 4.07
+      },
+      {
+        "name": "Sweet Potato",
+        "quantity": "100g",
+        "calories": 86.0,
+        "protein_g": 1.8,
+        "cost_aed": 0.83
+      }
+    ],
+    "calories": 316.0,
+    "protein_g": 27.8,
+    "carbs_g": 20.0,
+    "fat_g": 15.1,
+    "cost_aed": 4.89
+  },
+  {
+    "goal": "gain_weight",
+    "source_pdf": "meal-plan-2025-08-25 (1).pdf",
+    "day_number": 1,
+    "meal_type": "morning_drink",
+    "meal_name": "Black Coffee",
+    "time": "06:30",
+    "instructions": "Serve hot without sugar.",
+    "ingredients": [
+      {
+        "name": "Black Coffee",
+        "quantity": "1 cup",
+        "calories": 2.0,
+        "protein_g": 0.0,
+        "cost_aed": 1.0
+      }
+    ],
+    "calories": 2.0,
+    "protein_g": 0.0,
+    "carbs_g": 0.0,
+    "fat_g": 0.0,
+    "cost_aed": 1.0
+  },
+  {
+    "goal": "gain_weight",
+    "source_pdf": "meal-plan-2025-08-25 (1).pdf",
+    "day_number": 1,
+    "meal_type": "breakfast",
+    "meal_name": "Egg & Avocado on Toast",
+    "time": "07:00",
+    "instructions": "Scramble the eggs and serve on toast with sliced avocado.",
+    "ingredients": [
+      {
+        "name": "Egg",
+        "quantity": "2",
+        "calories": 296.0,
+        "protein_g": 26.0,
+        "cost_aed": 2.66
+      },
+      {
+        "name": "Avocado",
+        "quantity": "100g",
+        "calories": 174.06,
+        "protein_g": 2.0,
+        "cost_aed": 6.0
+      }
+    ],
+    "calories": 470.0,
+    "protein_g": 28.0,
+    "carbs_g": 10.1,
+    "fat_g": 34.7,
+    "cost_aed": 8.66
+  },
+  {
+    "goal": "gain_weight",
+    "source_pdf": "meal-plan-2025-08-25 (1).pdf",
+    "day_number": 1,
+    "meal_type": "snack",
+    "meal_name": "Banana",
+    "time": "10:00",
+    "instructions": "Peel and eat.",
+    "ingredients": [
+      {
+        "name": "Banana",
+        "quantity": "100g",
+        "calories": 98.69,
+        "protein_g": 1.09,
+        "cost_aed": 3.0
+      }
+    ],
+    "calories": 99.0,
+    "protein_g": 1.1,
+    "carbs_g": 22.8,
+    "fat_g": 0.3,
+    "cost_aed": 3.0
+  },
+  {
+    "goal": "gain_weight",
+    "source_pdf": "meal-plan-2025-08-25 (1).pdf",
+    "day_number": 1,
+    "meal_type": "lunch",
+    "meal_name": "Grilled Chicken with Red Rice",
+    "time": "13:00",
+    "instructions": "Grill the chicken and serve with cooked red rice.",
+    "ingredients": [
+      {
+        "name": "Chicken Fillet",
+        "quantity": "200g",
+        "calories": 330.0,
+        "protein_g": 62.0,
+        "cost_aed": 3.34
+      },
+      {
+        "name": "Red Rice",
+        "quantity": "150g",
+        "calories": 216.915,
+        "protein_g": 4.5045,
+        "cost_aed": 1.44
+      }
+    ],
+    "calories": 547.0,
+    "protein_g": 66.5,
+    "carbs_g": 46.7,
+    "fat_g": 7.7,
+    "cost_aed": 4.78
+  },
+  {
+    "goal": "gain_weight",
+    "source_pdf": "meal-plan-2025-08-25 (1).pdf",
+    "day_number": 1,
+    "meal_type": "snack",
+    "meal_name": "Greek Yogurt with Strawberries",
+    "time": "16:00",
+    "instructions": "Mix sliced strawberries with Greek yogurt.",
+    "ingredients": [
+      {
+        "name": "Strawberry",
+        "quantity": "100g",
+        "calories": 36.1,
+        "protein_g": 0.67,
+        "cost_aed": 15.0
+      },
+      {
+        "name": "Greek Yogurt",
+        "quantity": "150g",
+        "calories": 140.0,
+        "protein_g": 8.0,
+        "cost_aed": 2.0
+      }
+    ],
+    "calories": 176.0,
+    "protein_g": 8.7,
+    "carbs_g": 17.7,
+    "fat_g": 5.3,
+    "cost_aed": 17.0
+  },
+  {
+    "goal": "gain_weight",
+    "source_pdf": "meal-plan-2025-08-25 (1).pdf",
+    "day_number": 1,
+    "meal_type": "dinner",
+    "meal_name": "Salmon with Grilled Potato",
+    "time": "19:00",
+    "instructions": "Grill the salmon and potatoes, then serve.",
+    "ingredients": [
+      {
+        "name": "Salmon",
+        "quantity": "150g",
+        "calories": 309.0,
+        "protein_g": 30.6,
+        "cost_aed": 10.73
+      },
+      {
+        "name": "Grilled Potato",
+        "quantity": "200g",
+        "calories": 220.0,
+        "protein_g": 5.6,
+        "cost_aed": 1.98
+      }
+    ],
+    "calories": 529.0,
+    "protein_g": 36.2,
+    "carbs_g": 58.0,
+    "fat_g": 24.9,
+    "cost_aed": 12.71
+  },
+  {
+    "goal": "gain_weight",
+    "source_pdf": "meal-plan-2025-08-25 (1).pdf",
+    "day_number": 1,
+    "meal_type": "evening_snack",
+    "meal_name": "Chocolate Brownie",
+    "time": "21:00",
+    "instructions": "Enjoy as a dessert.",
+    "ingredients": [
+      {
+        "name": "Chocolate Brownie",
+        "quantity": "1 piece (45g)",
+        "calories": 200.0,
+        "protein_g": 2.5,
+        "cost_aed": 6.3
+      }
+    ],
+    "calories": 200.0,
+    "protein_g": 2.5,
+    "carbs_g": 14.0,
+    "fat_g": 14.0,
+    "cost_aed": 6.3
+  },
+  {
+    "goal": "gain_weight",
+    "source_pdf": "meal-plan-2025-08-25 (1).pdf",
+    "day_number": 2,
+    "meal_type": "morning_drink",
+    "meal_name": "Black Coffee",
+    "time": "06:30",
+    "instructions": "Serve hot without sugar.",
+    "ingredients": [
+      {
+        "name": "Black Coffee",
+        "quantity": "1 cup",
+        "calories": 2.0,
+        "protein_g": 0.0,
+        "cost_aed": 1.0
+      }
+    ],
+    "calories": 2.0,
+    "protein_g": 0.0,
+    "carbs_g": 0.0,
+    "fat_g": 0.0,
+    "cost_aed": 1.0
+  },
+  {
+    "goal": "gain_weight",
+    "source_pdf": "meal-plan-2025-08-25 (1).pdf",
+    "day_number": 2,
+    "meal_type": "breakfast",
+    "meal_name": "Egg and Avocado",
+    "time": "07:30",
+    "instructions": "Prepare eggs to your liking and serve with sliced avocado.",
+    "ingredients": [
+      {
+        "name": "Egg",
+        "quantity": "100g",
+        "calories": 148.0,
+        "protein_g": 13.0,
+        "cost_aed": 1.33
+      },
+      {
+        "name": "Avocado",
+        "quantity": "100g",
+        "calories": 174.06,
+        "protein_g": 2.0,
+        "cost_aed": 6.0
+      }
+    ],
+    "calories": 322.0,
+    "protein_g": 15.0,
+    "carbs_g": 9.3,
+    "fat_g": 24.7,
+    "cost_aed": 7.33
+  },
+  {
+    "goal": "gain_weight",
+    "source_pdf": "meal-plan-2025-08-25 (1).pdf",
+    "day_number": 2,
+    "meal_type": "snack",
+    "meal_name": "Banana",
+    "time": "10:00",
+    "instructions": "Peel and enjoy.",
+    "ingredients": [
+      {
+        "name": "Banana",
+        "quantity": "100g",
+        "calories": 98.69,
+        "protein_g": 1.09,
+        "cost_aed": 3.0
+      }
+    ],
+    "calories": 99.0,
+    "protein_g": 1.1,
+    "carbs_g": 22.8,
+    "fat_g": 0.3,
+    "cost_aed": 3.0
+  },
+  {
+    "goal": "gain_weight",
+    "source_pdf": "meal-plan-2025-08-25 (1).pdf",
+    "day_number": 2,
+    "meal_type": "lunch",
+    "meal_name": "Grilled Salmon with Red Rice",
+    "time": "12:30",
+    "instructions": "Grill the salmon and cook the red rice as per package instructions.",
+    "ingredients": [
+      {
+        "name": "Salmon",
+        "quantity": "100g",
+        "calories": 206.0,
+        "protein_g": 20.4,
+        "cost_aed": 7.15
+      },
+      {
+        "name": "Red Rice",
+        "quantity": "100g",
+        "calories": 144.61,
+        "protein_g": 3.003,
+        "cost_aed": 0.96
+      }
+    ],
+    "calories": 351.0,
+    "protein_g": 23.4,
+    "carbs_g": 31.1,
+    "fat_g": 13.3,
+    "cost_aed": 8.11
+  },
+  {
+    "goal": "gain_weight",
+    "source_pdf": "meal-plan-2025-08-25 (1).pdf",
+    "day_number": 2,
+    "meal_type": "snack",
+    "meal_name": "Strawberry and Greek Yogurt",
+    "time": "15:00",
+    "instructions": "Mix strawberries with Greek yogurt.",
+    "ingredients": [
+      {
+        "name": "Strawberry",
+        "quantity": "100g",
+        "calories": 36.1,
+        "protein_g": 0.67,
+        "cost_aed": 15.0
+      },
+      {
+        "name": "Greek Yogurt",
+        "quantity": "100g",
+        "calories": 59.0,
+        "protein_g": 10.0,
+        "cost_aed": 1.5
+      }
+    ],
+    "calories": 95.0,
+    "protein_g": 10.7,
+    "carbs_g": 11.3,
+    "fat_g": 0.7,
+    "cost_aed": 16.5
+  },
+  {
+    "goal": "gain_weight",
+    "source_pdf": "meal-plan-2025-08-25 (1).pdf",
+    "day_number": 2,
+    "meal_type": "dinner",
+    "meal_name": "Chicken Fillet with Grilled Potato",
+    "time": "18:30",
+    "instructions": "Grill the chicken fillet and potato slices.",
+    "ingredients": [
+      {
+        "name": "Chicken Fillet",
+        "quantity": "100g",
+        "calories": 165.0,
+        "protein_g": 31.0,
+        "cost_aed": 1.67
+      },
+      {
+        "name": "Grilled Potato",
+        "quantity": "100g",
+        "calories": 110.0,
+        "protein_g": 2.8,
+        "cost_aed": 0.99
+      }
+    ],
+    "calories": 275.0,
+    "protein_g": 33.8,
+    "carbs_g": 29.0,
+    "fat_g": 6.3,
+    "cost_aed": 2.66
+  },
+  {
+    "goal": "gain_weight",
+    "source_pdf": "meal-plan-2025-08-25 (1).pdf",
+    "day_number": 2,
+    "meal_type": "dessert",
+    "meal_name": "Dark Chocolate Cranberry Ball",
+    "time": "20:00",
+    "instructions": "Enjoy as an evening treat.",
+    "ingredients": [
+      {
+        "name": "Dark Chocolate Cranberry Ball",
+        "quantity": "80g",
+        "calories": 274.0,
+        "protein_g": 12.8,
+        "cost_aed": 12.6
+      }
+    ],
+    "calories": 274.0,
+    "protein_g": 12.8,
+    "carbs_g": 32.0,
+    "fat_g": 6.4,
+    "cost_aed": 12.6
+  },
+  {
+    "goal": "gain_weight",
+    "source_pdf": "meal-plan-2025-08-25 (1).pdf",
+    "day_number": 3,
+    "meal_type": "morning_drink",
+    "meal_name": "Black Coffee",
+    "time": "06:30",
+    "instructions": "Serve hot without sugar.",
+    "ingredients": [
+      {
+        "name": "Black Coffee",
+        "quantity": "1 cup",
+        "calories": 2.0,
+        "protein_g": 0.0,
+        "cost_aed": 1.0
+      }
+    ],
+    "calories": 2.0,
+    "protein_g": 0.0,
+    "carbs_g": 0.0,
+    "fat_g": 0.0,
+    "cost_aed": 1.0
+  },
+  {
+    "goal": "gain_weight",
+    "source_pdf": "meal-plan-2025-08-25 (1).pdf",
+    "day_number": 3,
+    "meal_type": "breakfast",
+    "meal_name": "Egg and Avocado Toast",
+    "time": "07:00",
+    "instructions": "Cook eggs to your preference. Serve with mashed avocado on whole grain toast.",
+    "ingredients": [
+      {
+        "name": "Egg",
+        "quantity": "2",
+        "calories": 296.0,
+        "protein_g": 26.0,
+        "cost_aed": 2.66
+      },
+      {
+        "name": "Avocado",
+        "quantity": "50g",
+        "calories": 87.03,
+        "protein_g": 1.0,
+        "cost_aed": 3.0
+      }
+    ],
+    "calories": 383.0,
+    "protein_g": 27.0,
+    "carbs_g": 5.9,
+    "fat_g": 27.3,
+    "cost_aed": 5.66
+  },
+  {
+    "goal": "gain_weight",
+    "source_pdf": "meal-plan-2025-08-25 (1).pdf",
+    "day_number": 3,
+    "meal_type": "snack",
+    "meal_name": "Banana",
+    "time": "10:00",
+    "instructions": "Peel and eat.",
+    "ingredients": [
+      {
+        "name": "Banana",
+        "quantity": "1 medium",
+        "calories": 98.69,
+        "protein_g": 1.09,
+        "cost_aed": 3.0
+      }
+    ],
+    "calories": 99.0,
+    "protein_g": 1.1,
+    "carbs_g": 22.8,
+    "fat_g": 0.3,
+    "cost_aed": 3.0
+  },
+  {
+    "goal": "gain_weight",
+    "source_pdf": "meal-plan-2025-08-25 (1).pdf",
+    "day_number": 3,
+    "meal_type": "lunch",
+    "meal_name": "Grilled Chicken with Red Rice",
+    "time": "12:30",
+    "instructions": "Grill the chicken fillet and serve with steamed red rice.",
+    "ingredients": [
+      {
+        "name": "Chicken Fillet",
+        "quantity": "150g",
+        "calories": 247.5,
+        "protein_g": 46.5,
+        "cost_aed": 2.51
+      },
+      {
+        "name": "Red Rice",
+        "quantity": "150g",
+        "calories": 216.915,
+        "protein_g": 4.5045,
+        "cost_aed": 1.44
+      }
+    ],
+    "calories": 464.0,
+    "protein_g": 51.0,
+    "carbs_g": 46.7,
+    "fat_g": 5.9,
+    "cost_aed": 3.94
+  },
+  {
+    "goal": "gain_weight",
+    "source_pdf": "meal-plan-2025-08-25 (1).pdf",
+    "day_number": 3,
+    "meal_type": "snack",
+    "meal_name": "Strawberries",
+    "time": "15:00",
+    "instructions": "Wash and eat fresh.",
+    "ingredients": [
+      {
+        "name": "Strawberry",
+        "quantity": "100g",
+        "calories": 36.1,
+        "protein_g": 0.67,
+        "cost_aed": 15.0
+      }
+    ],
+    "calories": 36.0,
+    "protein_g": 0.7,
+    "carbs_g": 7.7,
+    "fat_g": 0.3,
+    "cost_aed": 15.0
+  },
+  {
+    "goal": "gain_weight",
+    "source_pdf": "meal-plan-2025-08-25 (1).pdf",
+    "day_number": 3,
+    "meal_type": "dinner",
+    "meal_name": "Salmon with Grilled Potato",
+    "time": "18:30",
+    "instructions": "Grill the salmon and potato, then serve hot.",
+    "ingredients": [
+      {
+        "name": "Salmon",
+        "quantity": "100g",
+        "calories": 206.0,
+        "protein_g": 20.4,
+        "cost_aed": 7.15
+      },
+      {
+        "name": "Grilled Potato",
+        "quantity": "100g",
+        "calories": 110.0,
+        "protein_g": 2.8,
+        "cost_aed": 0.99
+      }
+    ],
+    "calories": 316.0,
+    "protein_g": 23.2,
+    "carbs_g": 29.0,
+    "fat_g": 15.7,
+    "cost_aed": 8.14
+  },
+  {
+    "goal": "gain_weight",
+    "source_pdf": "meal-plan-2025-08-25 (1).pdf",
+    "day_number": 3,
+    "meal_type": "dessert",
+    "meal_name": "Dark Chocolate Cranberry Ball",
+    "time": "20:00",
+    "instructions": "Enjoy as a sweet treat.",
+    "ingredients": [
+      {
+        "name": "Dark Chocolate Cranberry Ball",
+        "quantity": "1",
+        "calories": 137.0,
+        "protein_g": 6.4,
+        "cost_aed": 6.3
+      }
+    ],
+    "calories": 137.0,
+    "protein_g": 6.4,
+    "carbs_g": 16.0,
+    "fat_g": 3.2,
+    "cost_aed": 6.3
+  },
+  {
+    "goal": "gain_weight",
+    "source_pdf": "meal-plan-2025-08-25 (1).pdf",
+    "day_number": 4,
+    "meal_type": "morning_drink",
+    "meal_name": "Black Coffee",
+    "time": "06:30",
+    "instructions": "Serve hot without sugar.",
+    "ingredients": [
+      {
+        "name": "Black Coffee",
+        "quantity": "1 cup",
+        "calories": 2.0,
+        "protein_g": 0.0,
+        "cost_aed": 1.0
+      }
+    ],
+    "calories": 2.0,
+    "protein_g": 0.0,
+    "carbs_g": 0.0,
+    "fat_g": 0.0,
+    "cost_aed": 1.0
+  },
+  {
+    "goal": "gain_weight",
+    "source_pdf": "meal-plan-2025-08-25 (1).pdf",
+    "day_number": 4,
+    "meal_type": "breakfast",
+    "meal_name": "Egg with Avocado",
+    "time": "07:00",
+    "instructions": "Cook the egg as preferred. Serve with sliced avocado.",
+    "ingredients": [
+      {
+        "name": "Egg",
+        "quantity": "100g",
+        "calories": 148.0,
+        "protein_g": 13.0,
+        "cost_aed": 1.33
+      },
+      {
+        "name": "Avocado",
+        "quantity": "100g",
+        "calories": 174.06,
+        "protein_g": 2.0,
+        "cost_aed": 6.0
+      }
+    ],
+    "calories": 322.0,
+    "protein_g": 15.0,
+    "carbs_g": 9.3,
+    "fat_g": 24.7,
+    "cost_aed": 7.33
+  },
+  {
+    "goal": "gain_weight",
+    "source_pdf": "meal-plan-2025-08-25 (1).pdf",
+    "day_number": 4,
+    "meal_type": "snack",
+    "meal_name": "Banana",
+    "time": "10:00",
+    "instructions": "Peel and eat.",
+    "ingredients": [
+      {
+        "name": "Banana",
+        "quantity": "100g",
+        "calories": 98.69,
+        "protein_g": 1.09,
+        "cost_aed": 3.0
+      }
+    ],
+    "calories": 99.0,
+    "protein_g": 1.1,
+    "carbs_g": 22.8,
+    "fat_g": 0.3,
+    "cost_aed": 3.0
+  },
+  {
+    "goal": "gain_weight",
+    "source_pdf": "meal-plan-2025-08-25 (1).pdf",
+    "day_number": 4,
+    "meal_type": "lunch",
+    "meal_name": "Beef with Red Rice",
+    "time": "13:00",
+    "instructions": "Grill the beef to your liking. Cook the red rice as per instructions.",
+    "ingredients": [
+      {
+        "name": "Beef",
+        "quantity": "100g",
+        "calories": 230.0,
+        "protein_g": 26.0,
+        "cost_aed": 4.07
+      },
+      {
+        "name": "Red Rice",
+        "quantity": "100g",
+        "calories": 144.61,
+        "protein_g": 3.003,
+        "cost_aed": 0.96
+      }
+    ],
+    "calories": 375.0,
+    "protein_g": 29.0,
+    "carbs_g": 31.1,
+    "fat_g": 15.3,
+    "cost_aed": 5.03
+  },
+  {
+    "goal": "gain_weight",
+    "source_pdf": "meal-plan-2025-08-25 (1).pdf",
+    "day_number": 4,
+    "meal_type": "snack",
+    "meal_name": "Dragon Fruit",
+    "time": "16:00",
+    "instructions": "Cut and serve fresh.",
+    "ingredients": [
+      {
+        "name": "Dragon Fruit",
+        "quantity": "100g",
+        "calories": 50.6,
+        "protein_g": 1.1,
+        "cost_aed": 23.0
+      }
+    ],
+    "calories": 51.0,
+    "protein_g": 1.1,
+    "carbs_g": 11.1,
+    "fat_g": 0.6,
+    "cost_aed": 23.0
+  },
+  {
+    "goal": "gain_weight",
+    "source_pdf": "meal-plan-2025-08-25 (1).pdf",
+    "day_number": 4,
+    "meal_type": "dinner",
+    "meal_name": "Shrimp with Grilled Potato",
+    "time": "19:00",
+    "instructions": "Grill the shrimp and potatoes.",
+    "ingredients": [
+      {
+        "name": "Shrimp",
+        "quantity": "100g",
+        "calories": 85.0,
+        "protein_g": 20.1,
+        "cost_aed": 3.25
+      },
+      {
+        "name": "Grilled Potato",
+        "quantity": "100g",
+        "calories": 110.0,
+        "protein_g": 2.8,
+        "cost_aed": 0.99
+      }
+    ],
+    "calories": 195.0,
+    "protein_g": 22.9,
+    "carbs_g": 29.2,
+    "fat_g": 3.2,
+    "cost_aed": 4.24
+  },
+  {
+    "goal": "gain_weight",
+    "source_pdf": "meal-plan-2025-08-25 (1).pdf",
+    "day_number": 4,
+    "meal_type": "dessert",
+    "meal_name": "Muffin Mini GF Raspberry Dark Chocolate",
+    "time": "21:00",
+    "instructions": "Enjoy as is.",
+    "ingredients": [
+      {
+        "name": "Muffin Mini GF Raspberry Dark Chocolate",
+        "quantity": "70g",
+        "calories": 208.0,
+        "protein_g": 3.0,
+        "cost_aed": 7.09
+      }
+    ],
+    "calories": 208.0,
+    "protein_g": 3.0,
+    "carbs_g": 23.2,
+    "fat_g": 11.1,
+    "cost_aed": 7.09
+  },
+  {
+    "goal": "gain_weight",
+    "source_pdf": "meal-plan-2025-08-25 (1).pdf",
+    "day_number": 5,
+    "meal_type": "morning_drink",
+    "meal_name": "Black Coffee",
+    "time": "06:30",
+    "instructions": "Serve hot without sugar.",
+    "ingredients": [
+      {
+        "name": "Black Coffee",
+        "quantity": "1 cup",
+        "calories": 2.0,
+        "protein_g": 0.0,
+        "cost_aed": 1.0
+      }
+    ],
+    "calories": 2.0,
+    "protein_g": 0.0,
+    "carbs_g": 0.0,
+    "fat_g": 0.0,
+    "cost_aed": 1.0
+  },
+  {
+    "goal": "gain_weight",
+    "source_pdf": "meal-plan-2025-08-25 (1).pdf",
+    "day_number": 5,
+    "meal_type": "breakfast",
+    "meal_name": "Avocado & Egg",
+    "time": "07:00",
+    "instructions": "Slice avocado and serve with a boiled egg.",
+    "ingredients": [
+      {
+        "name": "Avocado",
+        "quantity": "100g",
+        "calories": 174.06,
+        "protein_g": 2.0,
+        "cost_aed": 6.0
+      },
+      {
+        "name": "Egg",
+        "quantity": "100g",
+        "calories": 148.0,
+        "protein_g": 13.0,
+        "cost_aed": 1.33
+      }
+    ],
+    "calories": 322.0,
+    "protein_g": 15.0,
+    "carbs_g": 9.3,
+    "fat_g": 24.7,
+    "cost_aed": 7.33
+  },
+  {
+    "goal": "gain_weight",
+    "source_pdf": "meal-plan-2025-08-25 (1).pdf",
+    "day_number": 5,
+    "meal_type": "snack",
+    "meal_name": "Banana",
+    "time": "10:00",
+    "instructions": "Peel and eat.",
+    "ingredients": [
+      {
+        "name": "Banana",
+        "quantity": "100g",
+        "calories": 98.69,
+        "protein_g": 1.09,
+        "cost_aed": 3.0
+      }
+    ],
+    "calories": 99.0,
+    "protein_g": 1.1,
+    "carbs_g": 22.8,
+    "fat_g": 0.3,
+    "cost_aed": 3.0
+  },
+  {
+    "goal": "gain_weight",
+    "source_pdf": "meal-plan-2025-08-25 (1).pdf",
+    "day_number": 5,
+    "meal_type": "lunch",
+    "meal_name": "Grilled Chicken & Green Rice",
+    "time": "12:30",
+    "instructions": "Grill chicken fillet and serve with cooked green rice.",
+    "ingredients": [
+      {
+        "name": "Chicken Fillet",
+        "quantity": "100g",
+        "calories": 165.0,
+        "protein_g": 31.0,
+        "cost_aed": 1.67
+      },
+      {
+        "name": "Green Rice",
+        "quantity": "100g",
+        "calories": 147.5,
+        "protein_g": 3.06,
+        "cost_aed": 0.96
+      }
+    ],
+    "calories": 313.0,
+    "protein_g": 34.1,
+    "carbs_g": 31.8,
+    "fat_g": 3.9,
+    "cost_aed": 2.63
+  },
+  {
+    "goal": "gain_weight",
+    "source_pdf": "meal-plan-2025-08-25 (1).pdf",
+    "day_number": 5,
+    "meal_type": "snack",
+    "meal_name": "Grapes",
+    "time": "15:30",
+    "instructions": "Wash and eat.",
+    "ingredients": [
+      {
+        "name": "Grapes",
+        "quantity": "100g",
+        "calories": 69.9,
+        "protein_g": 0.72,
+        "cost_aed": 10.0
+      }
+    ],
+    "calories": 70.0,
+    "protein_g": 0.7,
+    "carbs_g": 18.1,
+    "fat_g": 0.2,
+    "cost_aed": 10.0
+  },
+  {
+    "goal": "gain_weight",
+    "source_pdf": "meal-plan-2025-08-25 (1).pdf",
+    "day_number": 5,
+    "meal_type": "dinner",
+    "meal_name": "Beef & Sweet Potato",
+    "time": "19:00",
+    "instructions": "Cook beef and serve with baked sweet potato.",
+    "ingredients": [
+      {
+        "name": "Beef",
+        "quantity": "100g",
+        "calories": 230.0,
+        "protein_g": 26.0,
+        "cost_aed": 4.07
+      },
+      {
+        "name": "Sweet Potato",
+        "quantity": "100g",
+        "calories": 86.0,
+        "protein_g": 1.8,
+        "cost_aed": 0.83
+      }
+    ],
+    "calories": 316.0,
+    "protein_g": 27.8,
+    "carbs_g": 20.0,
+    "fat_g": 15.1,
+    "cost_aed": 4.89
+  },
+  {
+    "goal": "gain_weight",
+    "source_pdf": "meal-plan-2025-08-25 (1).pdf",
+    "day_number": 5,
+    "meal_type": "dessert",
+    "meal_name": "Marble Cake Loaf Slice",
+    "time": "21:00",
+    "instructions": "Serve as is.",
+    "ingredients": [
+      {
+        "name": "Marble Cake Loaf Slice",
+        "quantity": "50g",
+        "calories": 204.7,
+        "protein_g": 1.9,
+        "cost_aed": 3.99
+      }
+    ],
+    "calories": 205.0,
+    "protein_g": 1.9,
+    "carbs_g": 21.3,
+    "fat_g": 12.4,
+    "cost_aed": 3.99
+  },
+  {
+    "goal": "gain_weight",
+    "source_pdf": "meal-plan-2025-08-25 (1).pdf",
+    "day_number": 6,
+    "meal_type": "morning_drink",
+    "meal_name": "Black Coffee",
+    "time": "06:30",
+    "instructions": "Serve hot without sugar.",
+    "ingredients": [
+      {
+        "name": "Black Coffee",
+        "quantity": "1 cup",
+        "calories": 2.0,
+        "protein_g": 0.0,
+        "cost_aed": 1.0
+      }
+    ],
+    "calories": 2.0,
+    "protein_g": 0.0,
+    "carbs_g": 0.0,
+    "fat_g": 0.0,
+    "cost_aed": 1.0
+  },
+  {
+    "goal": "gain_weight",
+    "source_pdf": "meal-plan-2025-08-25 (1).pdf",
+    "day_number": 6,
+    "meal_type": "breakfast",
+    "meal_name": "Egg and Avocado Toast",
+    "time": "07:00",
+    "instructions": "Cook eggs to your preference and serve on toast with sliced avocado.",
+    "ingredients": [
+      {
+        "name": "Egg",
+        "quantity": "2 eggs",
+        "calories": 296.0,
+        "protein_g": 26.0,
+        "cost_aed": 2.66
+      },
+      {
+        "name": "Avocado",
+        "quantity": "50g",
+        "calories": 87.03,
+        "protein_g": 1.0,
+        "cost_aed": 3.0
+      }
+    ],
+    "calories": 383.0,
+    "protein_g": 27.0,
+    "carbs_g": 5.9,
+    "fat_g": 27.3,
+    "cost_aed": 5.66
+  },
+  {
+    "goal": "gain_weight",
+    "source_pdf": "meal-plan-2025-08-25 (1).pdf",
+    "day_number": 6,
+    "meal_type": "snack",
+    "meal_name": "Banana",
+    "time": "10:00",
+    "instructions": "Peel and enjoy.",
+    "ingredients": [
+      {
+        "name": "Banana",
+        "quantity": "1 medium",
+        "calories": 98.69,
+        "protein_g": 1.09,
+        "cost_aed": 3.0
+      }
+    ],
+    "calories": 99.0,
+    "protein_g": 1.1,
+    "carbs_g": 22.8,
+    "fat_g": 0.3,
+    "cost_aed": 3.0
+  },
+  {
+    "goal": "gain_weight",
+    "source_pdf": "meal-plan-2025-08-25 (1).pdf",
+    "day_number": 6,
+    "meal_type": "lunch",
+    "meal_name": "Chicken Salad",
+    "time": "12:30",
+    "instructions": "Serve chilled.",
+    "ingredients": [
+      {
+        "name": "Chicken Salad",
+        "quantity": "1 serving",
+        "calories": 550.0,
+        "protein_g": 45.0,
+        "cost_aed": 15.43
+      }
+    ],
+    "calories": 550.0,
+    "protein_g": 45.0,
+    "carbs_g": 40.0,
+    "fat_g": 25.0,
+    "cost_aed": 15.43
+  },
+  {
+    "goal": "gain_weight",
+    "source_pdf": "meal-plan-2025-08-25 (1).pdf",
+    "day_number": 6,
+    "meal_type": "snack",
+    "meal_name": "Apple Slices",
+    "time": "15:00",
+    "instructions": "Slice and serve.",
+    "ingredients": [
+      {
+        "name": "Apple",
+        "quantity": "150g",
+        "calories": 86.715,
+        "protein_g": 0.39,
+        "cost_aed": 1.0
+      }
+    ],
+    "calories": 87.0,
+    "protein_g": 0.4,
+    "carbs_g": 20.7,
+    "fat_g": 0.3,
+    "cost_aed": 1.0
+  },
+  {
+    "goal": "gain_weight",
+    "source_pdf": "meal-plan-2025-08-25 (1).pdf",
+    "day_number": 6,
+    "meal_type": "dinner",
+    "meal_name": "Grilled Fish and Yellow Rice",
+    "time": "18:00",
+    "instructions": "Grill fish and serve with yellow rice.",
+    "ingredients": [
+      {
+        "name": "Fish",
+        "quantity": "150g",
+        "calories": 135.0,
+        "protein_g": 25.5,
+        "cost_aed": 1.57
+      },
+      {
+        "name": "Yellow Rice",
+        "quantity": "150g",
+        "calories": 210.6,
+        "protein_g": 4.374,
+        "cost_aed": 1.44
+      }
+    ],
+    "calories": 346.0,
+    "protein_g": 29.9,
+    "carbs_g": 45.4,
+    "fat_g": 3.5,
+    "cost_aed": 3.0
+  },
+  {
+    "goal": "gain_weight",
+    "source_pdf": "meal-plan-2025-08-25 (1).pdf",
+    "day_number": 6,
+    "meal_type": "dessert",
+    "meal_name": "Carrot Cake Loaf Slice",
+    "time": "20:00",
+    "instructions": "Serve as dessert.",
+    "ingredients": [
+      {
+        "name": "Carrot Cake Loaf Slice",
+        "quantity": "1 slice",
+        "calories": 140.0,
+        "protein_g": 3.8,
+        "cost_aed": 3.99
+      }
+    ],
+    "calories": 140.0,
+    "protein_g": 3.8,
+    "carbs_g": 14.3,
+    "fat_g": 7.1,
+    "cost_aed": 3.99
+  },
+  {
+    "goal": "gain_weight",
+    "source_pdf": "meal-plan-2025-08-25 (1).pdf",
+    "day_number": 7,
+    "meal_type": "morning_drink",
+    "meal_name": "Black Coffee",
+    "time": "06:30",
+    "instructions": "Serve hot without sugar.",
+    "ingredients": [
+      {
+        "name": "Black Coffee",
+        "quantity": "1 cup",
+        "calories": 2.0,
+        "protein_g": 0.0,
+        "cost_aed": 1.0
+      }
+    ],
+    "calories": 2.0,
+    "protein_g": 0.0,
+    "carbs_g": 0.0,
+    "fat_g": 0.0,
+    "cost_aed": 1.0
+  },
+  {
+    "goal": "gain_weight",
+    "source_pdf": "meal-plan-2025-08-25 (1).pdf",
+    "day_number": 7,
+    "meal_type": "breakfast",
+    "meal_name": "Scrambled Eggs with Avocado",
+    "time": "07:00",
+    "instructions": "Scramble the eggs and serve with sliced avocado.",
+    "ingredients": [
+      {
+        "name": "Egg",
+        "quantity": "100g",
+        "calories": 148.0,
+        "protein_g": 13.0,
+        "cost_aed": 1.33
+      },
+      {
+        "name": "Avocado",
+        "quantity": "50g",
+        "calories": 87.03,
+        "protein_g": 1.0,
+        "cost_aed": 3.0
+      }
+    ],
+    "calories": 235.0,
+    "protein_g": 14.0,
+    "carbs_g": 5.1,
+    "fat_g": 17.3,
+    "cost_aed": 4.33
+  },
+  {
+    "goal": "gain_weight",
+    "source_pdf": "meal-plan-2025-08-25 (1).pdf",
+    "day_number": 7,
+    "meal_type": "snack",
+    "meal_name": "Pineapple",
+    "time": "10:00",
+    "instructions": "Serve fresh pineapple slices.",
+    "ingredients": [
+      {
+        "name": "Pineapple",
+        "quantity": "150g",
+        "calories": 83.58,
+        "protein_g": 0.81,
+        "cost_aed": 12.0
+      }
+    ],
+    "calories": 84.0,
+    "protein_g": 0.8,
+    "carbs_g": 19.7,
+    "fat_g": 0.2,
+    "cost_aed": 12.0
+  },
+  {
+    "goal": "gain_weight",
+    "source_pdf": "meal-plan-2025-08-25 (1).pdf",
+    "day_number": 7,
+    "meal_type": "lunch",
+    "meal_name": "Grilled Fish with Green Rice",
+    "time": "12:30",
+    "instructions": "Grill the fish and serve with green rice.",
+    "ingredients": [
+      {
+        "name": "Fish",
+        "quantity": "150g",
+        "calories": 135.0,
+        "protein_g": 25.5,
+        "cost_aed": 1.57
+      },
+      {
+        "name": "Green Rice",
+        "quantity": "100g",
+        "calories": 147.5,
+        "protein_g": 3.06,
+        "cost_aed": 0.96
+      }
+    ],
+    "calories": 283.0,
+    "protein_g": 28.6,
+    "carbs_g": 31.8,
+    "fat_g": 3.3,
+    "cost_aed": 2.52
+  },
+  {
+    "goal": "gain_weight",
+    "source_pdf": "meal-plan-2025-08-25 (1).pdf",
+    "day_number": 7,
+    "meal_type": "snack",
+    "meal_name": "Orange",
+    "time": "15:00",
+    "instructions": "Peel and serve fresh orange slices.",
+    "ingredients": [
+      {
+        "name": "Orange",
+        "quantity": "150g",
+        "calories": 104.85,
+        "protein_g": 1.95,
+        "cost_aed": 9.0
+      }
+    ],
+    "calories": 105.0,
+    "protein_g": 2.0,
+    "carbs_g": 23.3,
+    "fat_g": 0.5,
+    "cost_aed": 9.0
+  },
+  {
+    "goal": "gain_weight",
+    "source_pdf": "meal-plan-2025-08-25 (1).pdf",
+    "day_number": 7,
+    "meal_type": "dinner",
+    "meal_name": "Shrimp Pasta",
+    "time": "19:00",
+    "instructions": "Cook the pasta and shrimp, then mix together and serve.",
+    "ingredients": [
+      {
+        "name": "Shrimp",
+        "quantity": "100g",
+        "calories": 85.0,
+        "protein_g": 20.1,
+        "cost_aed": 3.25
+      },
+      {
+        "name": "Pasta",
+        "quantity": "100g",
+        "calories": 370.0,
+        "protein_g": 13.0,
+        "cost_aed": 2.2
+      }
+    ],
+    "calories": 455.0,
+    "protein_g": 33.1,
+    "carbs_g": 75.2,
+    "fat_g": 2.0,
+    "cost_aed": 5.45
+  },
+  {
+    "goal": "gain_weight",
+    "source_pdf": "meal-plan-2025-08-25 (1).pdf",
+    "day_number": 7,
+    "meal_type": "dessert",
+    "meal_name": "Dark Chocolate Almond Choco Nibs Power Bar",
+    "time": "20:30",
+    "instructions": "Enjoy the power bar as a dessert.",
+    "ingredients": [
+      {
+        "name": "Dark Chocolate Almond Choco Nibs Power Bar",
+        "quantity": "1 bar",
+        "calories": 137.0,
+        "protein_g": 6.4,
+        "cost_aed": 6.3
+      }
+    ],
+    "calories": 137.0,
+    "protein_g": 6.4,
+    "carbs_g": 16.0,
+    "fat_g": 3.2,
+    "cost_aed": 6.3
+  }
+]

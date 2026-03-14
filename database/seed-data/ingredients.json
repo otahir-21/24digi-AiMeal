@@ -1,0 +1,392 @@
+[
+  {
+    "name": "Apple",
+    "category": "produce",
+    "default_quantity": "100g",
+    "calories": 72.263,
+    "protein_g": 0.325,
+    "cost_aed": 1.125,
+    "source_count": 4,
+    "notes": "Parsed from client meal plan PDFs; carbs/fat not available at ingredient line level."
+  },
+  {
+    "name": "Avocado",
+    "category": "produce",
+    "default_quantity": "100g",
+    "calories": 134.171,
+    "protein_g": 1.542,
+    "cost_aed": 4.625,
+    "source_count": 24,
+    "notes": "Parsed from client meal plan PDFs; carbs/fat not available at ingredient line level."
+  },
+  {
+    "name": "Banana",
+    "category": "produce",
+    "default_quantity": "100g",
+    "calories": 105.523,
+    "protein_g": 1.165,
+    "cost_aed": 3.208,
+    "source_count": 13,
+    "notes": "Parsed from client meal plan PDFs; carbs/fat not available at ingredient line level."
+  },
+  {
+    "name": "Beef",
+    "category": "protein",
+    "default_quantity": "100g",
+    "calories": 281.308,
+    "protein_g": 31.8,
+    "cost_aed": 4.975,
+    "source_count": 13,
+    "notes": "Parsed from client meal plan PDFs; carbs/fat not available at ingredient line level."
+  },
+  {
+    "name": "Black Coffee",
+    "category": "drink",
+    "default_quantity": "1 cup",
+    "calories": 2.0,
+    "protein_g": 0.0,
+    "cost_aed": 1.0,
+    "source_count": 28,
+    "notes": "Parsed from client meal plan PDFs; carbs/fat not available at ingredient line level."
+  },
+  {
+    "name": "Blackberry",
+    "category": "produce",
+    "default_quantity": "50g",
+    "calories": 36.307,
+    "protein_g": 1.042,
+    "cost_aed": 4.5,
+    "source_count": 2,
+    "notes": "Parsed from client meal plan PDFs; carbs/fat not available at ingredient line level."
+  },
+  {
+    "name": "Cantaloupe",
+    "category": "produce",
+    "default_quantity": "100g",
+    "calories": 56.565,
+    "protein_g": 1.26,
+    "cost_aed": 9.0,
+    "source_count": 2,
+    "notes": "Parsed from client meal plan PDFs; carbs/fat not available at ingredient line level."
+  },
+  {
+    "name": "Carrot Cake Loaf Slice",
+    "category": "dessert",
+    "default_quantity": "1 slice",
+    "calories": 140.0,
+    "protein_g": 3.8,
+    "cost_aed": 3.99,
+    "source_count": 1,
+    "notes": "Parsed from client meal plan PDFs; carbs/fat not available at ingredient line level."
+  },
+  {
+    "name": "Chicken Fillet",
+    "category": "protein",
+    "default_quantity": "150g",
+    "calories": 235.714,
+    "protein_g": 44.286,
+    "cost_aed": 2.389,
+    "source_count": 14,
+    "notes": "Parsed from client meal plan PDFs; carbs/fat not available at ingredient line level."
+  },
+  {
+    "name": "Chicken Salad",
+    "category": "protein",
+    "default_quantity": "1 serving",
+    "calories": 550.0,
+    "protein_g": 45.0,
+    "cost_aed": 15.43,
+    "source_count": 2,
+    "notes": "Parsed from client meal plan PDFs; carbs/fat not available at ingredient line level."
+  },
+  {
+    "name": "Chocolate Brownie",
+    "category": "dessert",
+    "default_quantity": "45g",
+    "calories": 200.0,
+    "protein_g": 2.5,
+    "cost_aed": 6.3,
+    "source_count": 2,
+    "notes": "Parsed from client meal plan PDFs; carbs/fat not available at ingredient line level."
+  },
+  {
+    "name": "Dark Chocolate Almond Choco Nibs Power Bar",
+    "category": "dessert",
+    "default_quantity": "1 bar",
+    "calories": 137.0,
+    "protein_g": 6.4,
+    "cost_aed": 6.3,
+    "source_count": 1,
+    "notes": "Parsed from client meal plan PDFs; carbs/fat not available at ingredient line level."
+  },
+  {
+    "name": "Dark Chocolate Cranberry Ball",
+    "category": "dessert",
+    "default_quantity": "1",
+    "calories": 171.25,
+    "protein_g": 8.0,
+    "cost_aed": 7.875,
+    "source_count": 4,
+    "notes": "Parsed from client meal plan PDFs; carbs/fat not available at ingredient line level."
+  },
+  {
+    "name": "Dragon Fruit",
+    "category": "produce",
+    "default_quantity": "100g",
+    "calories": 50.6,
+    "protein_g": 1.1,
+    "cost_aed": 23.0,
+    "source_count": 2,
+    "notes": "Parsed from client meal plan PDFs; carbs/fat not available at ingredient line level."
+  },
+  {
+    "name": "Egg",
+    "category": "protein",
+    "default_quantity": "100g",
+    "calories": 214.952,
+    "protein_g": 18.881,
+    "cost_aed": 1.931,
+    "source_count": 21,
+    "notes": "Parsed from client meal plan PDFs; carbs/fat not available at ingredient line level."
+  },
+  {
+    "name": "Fish",
+    "category": "protein",
+    "default_quantity": "200g",
+    "calories": 157.5,
+    "protein_g": 29.75,
+    "cost_aed": 1.83,
+    "source_count": 14,
+    "notes": "Parsed from client meal plan PDFs; carbs/fat not available at ingredient line level."
+  },
+  {
+    "name": "Grapes",
+    "category": "produce",
+    "default_quantity": "100g",
+    "calories": 58.25,
+    "protein_g": 0.6,
+    "cost_aed": 8.333,
+    "source_count": 3,
+    "notes": "Parsed from client meal plan PDFs; carbs/fat not available at ingredient line level."
+  },
+  {
+    "name": "Greek Yogurt",
+    "category": "protein",
+    "default_quantity": "150g",
+    "calories": 99.5,
+    "protein_g": 9.0,
+    "cost_aed": 1.75,
+    "source_count": 2,
+    "notes": "Parsed from client meal plan PDFs; carbs/fat not available at ingredient line level."
+  },
+  {
+    "name": "Green Rice",
+    "category": "carb",
+    "default_quantity": "100g",
+    "calories": 196.667,
+    "protein_g": 4.08,
+    "cost_aed": 1.278,
+    "source_count": 12,
+    "notes": "Parsed from client meal plan PDFs; carbs/fat not available at ingredient line level."
+  },
+  {
+    "name": "Grilled Potato",
+    "category": "carb",
+    "default_quantity": "100g",
+    "calories": 158.125,
+    "protein_g": 4.025,
+    "cost_aed": 1.424,
+    "source_count": 8,
+    "notes": "Parsed from client meal plan PDFs; carbs/fat not available at ingredient line level."
+  },
+  {
+    "name": "Kiwi",
+    "category": "produce",
+    "default_quantity": "100g",
+    "calories": 67.88,
+    "protein_g": 1.14,
+    "cost_aed": 6.5,
+    "source_count": 3,
+    "notes": "Parsed from client meal plan PDFs; carbs/fat not available at ingredient line level."
+  },
+  {
+    "name": "Mango",
+    "category": "produce",
+    "default_quantity": "100g",
+    "calories": 77.723,
+    "protein_g": 0.957,
+    "cost_aed": 8.333,
+    "source_count": 3,
+    "notes": "Parsed from client meal plan PDFs; carbs/fat not available at ingredient line level."
+  },
+  {
+    "name": "Marble Cake Loaf Slice",
+    "category": "dessert",
+    "default_quantity": "50g",
+    "calories": 204.7,
+    "protein_g": 1.9,
+    "cost_aed": 3.99,
+    "source_count": 1,
+    "notes": "Parsed from client meal plan PDFs; carbs/fat not available at ingredient line level."
+  },
+  {
+    "name": "Muffin Mini GF Raspberry Dark Chocolate",
+    "category": "dessert",
+    "default_quantity": "70g",
+    "calories": 208.0,
+    "protein_g": 3.0,
+    "cost_aed": 7.09,
+    "source_count": 1,
+    "notes": "Parsed from client meal plan PDFs; carbs/fat not available at ingredient line level."
+  },
+  {
+    "name": "Orange",
+    "category": "produce",
+    "default_quantity": "150g",
+    "calories": 104.85,
+    "protein_g": 1.95,
+    "cost_aed": 9.0,
+    "source_count": 1,
+    "notes": "Parsed from client meal plan PDFs; carbs/fat not available at ingredient line level."
+  },
+  {
+    "name": "Papaya",
+    "category": "produce",
+    "default_quantity": "100g",
+    "calories": 47.5,
+    "protein_g": 0.47,
+    "cost_aed": 6.0,
+    "source_count": 1,
+    "notes": "Parsed from client meal plan PDFs; carbs/fat not available at ingredient line level."
+  },
+  {
+    "name": "Pasta",
+    "category": "carb",
+    "default_quantity": "100g",
+    "calories": 370.0,
+    "protein_g": 13.0,
+    "cost_aed": 2.2,
+    "source_count": 2,
+    "notes": "Parsed from client meal plan PDFs; carbs/fat not available at ingredient line level."
+  },
+  {
+    "name": "Pineapple",
+    "category": "produce",
+    "default_quantity": "100g",
+    "calories": 66.864,
+    "protein_g": 0.648,
+    "cost_aed": 9.6,
+    "source_count": 5,
+    "notes": "Parsed from client meal plan PDFs; carbs/fat not available at ingredient line level."
+  },
+  {
+    "name": "Potato",
+    "category": "carb",
+    "default_quantity": "150g",
+    "calories": 219.375,
+    "protein_g": 4.95,
+    "cost_aed": 0.44,
+    "source_count": 2,
+    "notes": "Parsed from client meal plan PDFs; carbs/fat not available at ingredient line level."
+  },
+  {
+    "name": "Quinoa Salad",
+    "category": "carb",
+    "default_quantity": "100g",
+    "calories": 560.0,
+    "protein_g": 25.2,
+    "cost_aed": 18.54,
+    "source_count": 5,
+    "notes": "Parsed from client meal plan PDFs; carbs/fat not available at ingredient line level."
+  },
+  {
+    "name": "Red Rice",
+    "category": "carb",
+    "default_quantity": "150g",
+    "calories": 190.622,
+    "protein_g": 3.959,
+    "cost_aed": 1.265,
+    "source_count": 11,
+    "notes": "Parsed from client meal plan PDFs; carbs/fat not available at ingredient line level."
+  },
+  {
+    "name": "Rice",
+    "category": "carb",
+    "default_quantity": "50g",
+    "calories": 65.0,
+    "protein_g": 1.35,
+    "cost_aed": 0.33,
+    "source_count": 1,
+    "notes": "Parsed from client meal plan PDFs; carbs/fat not available at ingredient line level."
+  },
+  {
+    "name": "Salmon",
+    "category": "protein",
+    "default_quantity": "100g",
+    "calories": 250.143,
+    "protein_g": 24.771,
+    "cost_aed": 8.684,
+    "source_count": 7,
+    "notes": "Parsed from client meal plan PDFs; carbs/fat not available at ingredient line level."
+  },
+  {
+    "name": "Shrimp",
+    "category": "protein",
+    "default_quantity": "150g",
+    "calories": 106.25,
+    "protein_g": 25.125,
+    "cost_aed": 4.06,
+    "source_count": 8,
+    "notes": "Parsed from client meal plan PDFs; carbs/fat not available at ingredient line level."
+  },
+  {
+    "name": "Spaghetti",
+    "category": "carb",
+    "default_quantity": "200g",
+    "calories": 555.0,
+    "protein_g": 19.5,
+    "cost_aed": 1.865,
+    "source_count": 2,
+    "notes": "Parsed from client meal plan PDFs; carbs/fat not available at ingredient line level."
+  },
+  {
+    "name": "Strawberry",
+    "category": "produce",
+    "default_quantity": "100g",
+    "calories": 37.905,
+    "protein_g": 0.704,
+    "cost_aed": 13.25,
+    "source_count": 10,
+    "notes": "Parsed from client meal plan PDFs; carbs/fat not available at ingredient line level."
+  },
+  {
+    "name": "Sweet Potato",
+    "category": "carb",
+    "default_quantity": "200g",
+    "calories": 144.636,
+    "protein_g": 3.027,
+    "cost_aed": 1.389,
+    "source_count": 11,
+    "notes": "Parsed from client meal plan PDFs; carbs/fat not available at ingredient line level."
+  },
+  {
+    "name": "Watermelon",
+    "category": "produce",
+    "default_quantity": "100g",
+    "calories": 33.99,
+    "protein_g": 0.61,
+    "cost_aed": 4.0,
+    "source_count": 1,
+    "notes": "Parsed from client meal plan PDFs; carbs/fat not available at ingredient line level."
+  },
+  {
+    "name": "Yellow Rice",
+    "category": "carb",
+    "default_quantity": "200g",
+    "calories": 228.15,
+    "protein_g": 4.739,
+    "cost_aed": 1.555,
+    "source_count": 4,
+    "notes": "Parsed from client meal plan PDFs; carbs/fat not available at ingredient line level."
+  }
+]

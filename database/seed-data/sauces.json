@@ -1,0 +1,12 @@
+[
+  {
+    "name": "Tomato Sauce",
+    "category": "sauce",
+    "default_quantity": "50g",
+    "calories": 43.7,
+    "protein_g": 1.8,
+    "cost_aed": 1.94,
+    "source_count": 2,
+    "notes": "Parsed from client meal plan PDFs; carbs/fat not available at ingredient line level."
+  }
+]
