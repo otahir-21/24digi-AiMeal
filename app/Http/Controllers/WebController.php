@@ -929,74 +929,95 @@ class WebController extends Controller
     }
 
     public function generateMealPlan(string $prompt, array $conversationHistory = []): string
-    {
-        try {
-            $messages = [
-                [
-                    'role' => 'system',
-                    'content' => 'You are a nutritionist. Return ONLY valid JSON. Do not include markdown, explanations, comments, or code fences.'
-                ]
-            ];
-    
-            $promptLength = strlen($prompt);
-    
-            if ($promptLength < 2000 && !empty($conversationHistory)) {
-                $recentHistory = array_slice($conversationHistory, -2);
-                foreach ($recentHistory as $message) {
-                    $messages[] = $message;
-                }
+{
+    try {
+
+        $messages = [
+            [
+                'role' => 'system',
+                'content' => 'You are a nutritionist. Return ONLY valid JSON. Do not include markdown, explanations, or code fences.'
+            ]
+        ];
+
+        $promptLength = strlen($prompt);
+
+        if ($promptLength < 2000 && !empty($conversationHistory)) {
+            $recentHistory = array_slice($conversationHistory, -2);
+
+            foreach ($recentHistory as $message) {
+                $messages[] = $message;
             }
-    
-            $messages[] = [
-                'role' => 'user',
-                'content' => $prompt
-            ];
-    
-            $response = Http::withHeaders([
-                'Authorization' => 'Bearer ' . env('AI_API_KEY'),
-                'Content-Type' => 'application/json',
-            ])->timeout(120)->post('https://api.openai.com/v1/chat/completions', [
-                'model' => env('AI_MODEL', 'gpt-4o'),
-                'messages' => $messages,
-                'max_tokens' => 2000,
-                'temperature' => 0.2,
-                'response_format' => ['type' => 'json_object'],
-            ]);
-    
-            if (!$response->successful()) {
-                throw new \Exception('AI service request failed: ' . $response->body());
-            }
-    
-            $data = $response->json();
-    
-            if (!isset($data['choices'][0]['message']['content'])) {
-                Log::error('Invalid AI response structure', [
-                    'response' => $data,
-                ]);
-                throw new \Exception('Invalid AI response structure');
-            }
-    
-            $content = trim($data['choices'][0]['message']['content']);
-            $cleanedContent = $this->cleanJsonResponse($content);
-    
-            $jsonTest = json_decode($cleanedContent, true);
-    
-            if (json_last_error() !== JSON_ERROR_NONE) {
-                Log::error('Invalid JSON received from AI', [
-                    'json_error' => json_last_error_msg(),
-                    'raw_content' => $content,
-                    'cleaned_content' => $cleanedContent,
-                ]);
-    
-                throw new \Exception('AI returned invalid JSON response');
-            }
-    
-            return $cleanedContent;
-        } catch (\Exception $e) {
-            Log::error('AI service error: ' . $e->getMessage());
-            throw new \Exception('AI service unavailable: ' . $e->getMessage());
         }
+
+        $messages[] = [
+            'role' => 'user',
+            'content' => $prompt
+        ];
+
+        $response = Http::withHeaders([
+            'Authorization' => 'Bearer ' . env('AI_API_KEY'),
+            'Content-Type' => 'application/json',
+        ])->timeout(120)->post('https://api.openai.com/v1/chat/completions', [
+
+            'model' => env('AI_MODEL', 'gpt-4o'),
+
+            'messages' => $messages,
+
+            'max_tokens' => 2000,
+
+            'temperature' => 0.2,
+
+            'response_format' => [
+                'type' => 'json_object'
+            ],
+
+        ]);
+
+        if (!$response->successful()) {
+            throw new \Exception('AI service request failed: ' . $response->body());
+        }
+
+        $data = $response->json();
+
+        if (!isset($data['choices'][0]['message']['content'])) {
+
+            Log::error('Invalid AI response structure', [
+                'response' => $data
+            ]);
+
+            throw new \Exception('Invalid AI response structure');
+        }
+
+        $content = trim($data['choices'][0]['message']['content']);
+
+        $cleanedContent = $this->cleanJsonResponse($content);
+
+        $jsonTest = json_decode($cleanedContent, true);
+
+        if (json_last_error() !== JSON_ERROR_NONE) {
+
+            Log::error('Invalid JSON received from AI', [
+
+                'json_error' => json_last_error_msg(),
+
+                'raw_content' => $content,
+
+                'cleaned_content' => $cleanedContent,
+
+            ]);
+
+            throw new \Exception('AI returned invalid JSON response');
+        }
+
+        return $cleanedContent;
+
+    } catch (\Exception $e) {
+
+        Log::error('AI service error: ' . $e->getMessage());
+
+        throw new \Exception('AI service unavailable: ' . $e->getMessage());
     }
+}
 
     // Helper method to get essential conversation history
     private function getEssentialHistory(array $conversationHistory): array
