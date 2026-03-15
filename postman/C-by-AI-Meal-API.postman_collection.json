@@ -1,0 +1,203 @@
+{
+  "info": {
+    "name": "C-by-AI Meal API (Mobile)",
+    "description": "Test the mobile meal generation API. Set variables: base_url, device_id, session_id, user_identifier.",
+    "schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+  },
+  "variable": [
+    {
+      "key": "base_url",
+      "value": "http://16.170.207.64/api/v1/mobile"
+    },
+    {
+      "key": "device_id",
+      "value": "b3f3cca9-a11d-43f2-b835-50aed568b8bb"
+    },
+    {
+      "key": "session_id",
+      "value": ""
+    },
+    {
+      "key": "user_identifier",
+      "value": ""
+    }
+  ],
+  "item": [
+    {
+      "name": "1. Start meal generation",
+      "request": {
+        "method": "POST",
+        "header": [
+          {
+            "key": "Content-Type",
+            "value": "application/json"
+          },
+          {
+            "key": "Accept",
+            "value": "application/json"
+          }
+        ],
+        "body": {
+          "mode": "raw",
+          "raw": "{\n  \"device_id\": \"{{device_id}}\",\n  \"age\": 25,\n  \"height\": 190,\n  \"weight\": 90,\n  \"gender\": \"male\",\n  \"activity_level\": \"Lightly active (1-3 days/week)\",\n  \"neck_circumference\": 38,\n  \"waist_circumference\": 80,\n  \"hip_circumference\": 95,\n  \"plan_period\": 7\n}"
+        },
+        "url": {
+          "raw": "{{base_url}}/generate-meals/start",
+          "host": ["{{base_url}}"],
+          "path": ["generate-meals", "start"]
+        },
+        "description": "Starts AI meal generation in background. Copy session_id from response for next requests."
+      }
+    },
+    {
+      "name": "2. Poll status",
+      "request": {
+        "method": "POST",
+        "header": [
+          {
+            "key": "Content-Type",
+            "value": "application/json"
+          },
+          {
+            "key": "Accept",
+            "value": "application/json"
+          }
+        ],
+        "body": {
+          "mode": "raw",
+          "raw": "{\n  \"session_id\": \"{{session_id}}\"\n}"
+        },
+        "url": {
+          "raw": "{{base_url}}/generate-meals/status",
+          "host": ["{{base_url}}"],
+          "path": ["generate-meals", "status"]
+        },
+        "description": "Poll every 2-3 sec. Use session_id from Start response. Stop when completed=true."
+      }
+    },
+    {
+      "name": "3. Get session status",
+      "request": {
+        "method": "GET",
+        "header": [
+          {
+            "key": "Accept",
+            "value": "application/json"
+          }
+        ],
+        "url": {
+          "raw": "{{base_url}}/session/{{session_id}}/status",
+          "host": ["{{base_url}}"],
+          "path": ["session", "{{session_id}}", "status"]
+        },
+        "description": "Optional. Get session status (e.g. for resume)."
+      }
+    },
+    {
+      "name": "4. Check existing meals",
+      "request": {
+        "method": "GET",
+        "header": [
+          {
+            "key": "Accept",
+            "value": "application/json"
+          }
+        ],
+        "url": {
+          "raw": "{{base_url}}/check-meals/{{device_id}}",
+          "host": ["{{base_url}}"],
+          "path": ["check-meals", "{{device_id}}"]
+        },
+        "description": "Check if user has an existing meal plan."
+      }
+    },
+    {
+      "name": "5. Get full meal plan",
+      "request": {
+        "method": "GET",
+        "header": [
+          {
+            "key": "Accept",
+            "value": "application/json"
+          }
+        ],
+        "url": {
+          "raw": "{{base_url}}/meal-plan/{{user_identifier}}",
+          "host": ["{{base_url}}"],
+          "path": ["meal-plan", "{{user_identifier}}"]
+        },
+        "description": "Get full plan after generation completed. user_identifier = device_id or user_id."
+      }
+    },
+    {
+      "name": "6. Download PDF",
+      "request": {
+        "method": "GET",
+        "header": [
+          {
+            "key": "Accept",
+            "value": "application/pdf"
+          }
+        ],
+        "url": {
+          "raw": "{{base_url}}/meal-plan/{{user_identifier}}/pdf",
+          "host": ["{{base_url}}"],
+          "path": ["meal-plan", "{{user_identifier}}", "pdf"]
+        },
+        "description": "Download meal plan as PDF. Save response as file."
+      }
+    },
+    {
+      "name": "7. Approve meal plan",
+      "request": {
+        "method": "POST",
+        "header": [
+          {
+            "key": "Content-Type",
+            "value": "application/json"
+          },
+          {
+            "key": "Accept",
+            "value": "application/json"
+          }
+        ],
+        "body": {
+          "mode": "raw",
+          "raw": "{}"
+        },
+        "url": {
+          "raw": "{{base_url}}/meals/{{session_id}}/approve",
+          "host": ["{{base_url}}"],
+          "path": ["meals", "{{session_id}}", "approve"]
+        },
+        "description": "Call when user taps Approve on the generated plan."
+      }
+    },
+    {
+      "name": "Legacy - Generate meals (long, may 504)",
+      "request": {
+        "method": "POST",
+        "header": [
+          {
+            "key": "Content-Type",
+            "value": "application/json"
+          },
+          {
+            "key": "Accept",
+            "value": "application/json"
+          }
+        ],
+        "body": {
+          "mode": "raw",
+          "raw": "{\n  \"device_id\": \"{{device_id}}\",\n  \"age\": 25,\n  \"height\": 190,\n  \"weight\": 90,\n  \"gender\": \"male\",\n  \"activity_level\": \"Lightly active (1-3 days/week)\",\n  \"neck_circumference\": 38,\n  \"waist_circumference\": 80,\n  \"hip_circumference\": 95,\n  \"plan_period\": 7\n}"
+        },
+        "url": {
+          "raw": "{{base_url}}/generate-meals",
+          "host": ["{{base_url}}"],
+          "path": ["generate-meals"]
+        },
+        "description": "Old endpoint - runs sync, can timeout. Prefer 1. Start + 2. Poll status."
+      }
+    }
+  ]
+}
