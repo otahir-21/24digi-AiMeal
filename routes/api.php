@@ -27,9 +27,13 @@ Route::post('/v1/generate-ai-meal', [WebController::class, 'generateUserAiMeal']
 
 // Mobile API Endpoints (No Authentication Required)
 Route::prefix('v1/mobile')->group(function () {
-    // Main endpoint to generate meals
+    // Main endpoint to generate meals (can be long-running; use /generate-meals/start + /status for polling)
     Route::post('/generate-meals', [MobileApiController::class, 'generateMeals'])->name('api.mobile.generate');
-    
+
+    // Polling flow: start (returns session_id in <2s), then poll status for JSON meal_data
+    Route::post('/generate-meals/start', [MobileApiController::class, 'startGenerationSession'])->name('api.mobile.generate.start');
+    Route::post('/generate-meals/status', [MobileApiController::class, 'getGenerationStatus'])->name('api.mobile.generate.status');
+
     // SSE streaming endpoint
     Route::get('/stream/{sessionId}', [StreamController::class, 'stream'])->name('api.mobile.stream');
     

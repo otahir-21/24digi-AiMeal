@@ -30,7 +30,9 @@
 
 | # | Method | Endpoint | When to use |
 |---|--------|----------|-------------|
-| 1 | POST | `/generate-meals` | Start AI meal generation |
+| 1 | POST | `/generate-meals` | Start AI meal generation (can timeout; prefer polling flow below) |
+| 1b | POST | `/generate-meals/start` | **Start generation (returns in &lt;2s)** – use with polling |
+| 2b | POST | `/generate-meals/status` | **Poll for progress + JSON meal_data** (no HTML, no 504) |
 | 2 | GET | `/stream/{session_id}` | Live progress + meal data (SSE) |
 | 3 | GET | `/session/{session_id}/status` | Check/resume session |
 | 4 | GET | `/meal-plan/{user_identifier}` | Get full meal plan (after complete) |
@@ -74,7 +76,11 @@
   - `"Super active (twice/day or physical job)"`
 - **plan_period:** `7` or `30` (default 30).
 
-**Success (200):**
+**Alternative: Polling flow (avoids 504)**  
+1. **POST** `$baseUrl/generate-meals/start` – same body as above. Returns in **&lt;2 seconds** with `{ "success": true, "session_id": "uuid", "message": "Generation started in the background." }`.  
+2. **POST** `$baseUrl/generate-meals/status` – body `{ "session_id": "uuid" }`. Poll every 2–3 seconds. Response is **pure JSON** (no HTML): `completed`, `day_completed`, `total_days`, `progress`, and `meal_data` keyed by day number (e.g. `"1": { "daily_total_cal", "daily_total_cost", "meals": [...] }`). Use this for native Flutter UI.
+
+**Success (200) for POST generate-meals:**
 ```json
 {
   "success": true,

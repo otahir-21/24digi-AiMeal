@@ -12,6 +12,7 @@ use Illuminate\Http\Request;
 use Illuminate\Support\Facades\DB;
 use Illuminate\Support\Facades\Log;
 use Illuminate\Support\Str;
+use App\Jobs\GenerateMealPlanJob;
 
 class MobileApiController extends Controller
 {
@@ -226,6 +227,206 @@ class MobileApiController extends Controller
                 'error' => config('app.debug') ? $e->getMessage() : 'Internal server error'
             ], 500);
         }
+    }
+
+    /**
+     * Start meal generation (async). Returns session_id in <2s for Flutter polling.
+     * POST /api/v1/mobile/generate-meals/start
+     */
+    public function startGenerationSession(Request $request)
+    {
+        try {
+            $validated = $request->validate([
+                'device_id' => 'nullable|string|max:255',
+                'user_id' => 'nullable|string|max:255',
+                'age' => 'required|integer|min:1|max:120',
+                'height' => 'required|numeric|min:50|max:300',
+                'weight' => 'required|numeric|min:20|max:500',
+                'gender' => 'required|in:male,female',
+                'activity_level' => 'required|string',
+                'neck_circumference' => 'required|numeric|min:10|max:100',
+                'waist_circumference' => 'required|numeric|min:30|max:200',
+                'hip_circumference' => 'nullable|numeric|min:30|max:200',
+                'plan_period' => 'nullable|integer|in:7,14,21,28',
+                'food_allergies' => 'nullable|array',
+                'food_allergies.redMeatAllergy' => 'nullable|boolean',
+                'food_allergies.milkProductAllergy' => 'nullable|boolean',
+                'food_allergies.customAllergies' => 'nullable|array',
+                'food_allergies.customAllergies.*' => 'nullable|string|max:255',
+                'health_issues' => 'nullable|array',
+                'health_issues.*' => 'nullable|string|max:255',
+                'workout_habits' => 'nullable|array',
+                'workout_habits.*' => 'nullable|string|max:255',
+                'body_type' => 'nullable|array',
+                'body_type.*' => 'nullable|string|max:255',
+                'food_ingredients' => 'nullable|array',
+            ]);
+
+            $validated['plan_period'] = $validated['plan_period'] ?? 7;
+
+            DB::beginTransaction();
+
+            $user = $this->userService->findOrCreateUser($validated);
+
+            $activeSession = $user->mealSessions()
+                ->whereIn('status', ['pending', 'processing'])
+                ->first();
+
+            if ($activeSession) {
+                $minutesSinceUpdate = $activeSession->updated_at->diffInMinutes(now());
+                if ($minutesSinceUpdate > 10) {
+                    $activeSession->update([
+                        'status' => 'failed',
+                        'error_message' => 'Session timed out - replaced by new request'
+                    ]);
+                } else {
+                    DB::commit();
+                    return response()->json([
+                        'success' => true,
+                        'session_id' => (string) $activeSession->id,
+                        'message' => 'Generation started in the background.'
+                    ]);
+                }
+            }
+
+            $session = $this->mealService->createSession($user, $validated['plan_period']);
+            $session->update(['status' => 'processing']);
+
+            GenerateMealPlanJob::dispatch($session);
+
+            DB::commit();
+
+            return response()->json([
+                'success' => true,
+                'session_id' => (string) $session->id,
+                'message' => 'Generation started in the background.'
+            ]);
+        } catch (\Illuminate\Validation\ValidationException $e) {
+            return response()->json([
+                'success' => false,
+                'message' => 'Validation error',
+                'errors' => $e->errors()
+            ], 422);
+        } catch (\Exception $e) {
+            DB::rollBack();
+            Log::error('[API] startGenerationSession error: ' . $e->getMessage());
+            return response()->json([
+                'success' => false,
+                'message' => 'Failed to start meal generation',
+                'error' => config('app.debug') ? $e->getMessage() : 'Internal server error'
+            ], 500);
+        }
+    }
+
+    /**
+     * Poll generation status. Returns pure JSON meal_data for Flutter (no HTML).
+     * POST /api/v1/mobile/generate-meals/status
+     */
+    public function getGenerationStatus(Request $request)
+    {
+        try {
+            $validated = $request->validate([
+                'session_id' => 'required|string',
+                'current_day' => 'nullable|integer|min:0',
+            ]);
+
+            $session = MealSession::find($validated['session_id']);
+
+            if (!$session) {
+                return response()->json([
+                    'success' => false,
+                    'message' => 'Session not found'
+                ], 404);
+            }
+
+            $totalDays = (int) $session->total_days;
+            $currentDay = (int) $session->current_day;
+            $progress = $totalDays > 0 ? round(($currentDay / $totalDays) * 100, 1) : 0;
+            $completed = $session->status === 'completed';
+
+            $mealDataFormatted = [];
+            if ($session->meal_data && $session->daily_totals) {
+                $allMeals = json_decode($session->meal_data, true);
+                $dailyTotals = json_decode($session->daily_totals, true);
+                if (is_array($allMeals) && is_array($dailyTotals)) {
+                    foreach ($allMeals as $dayIndex => $dayMeals) {
+                        $dayNum = (string) ($dayIndex + 1);
+                        $totals = $dailyTotals[$dayIndex] ?? ['calories' => 0, 'protein' => 0, 'carbs' => 0, 'fat' => 0, 'price' => 0];
+                        $mealsForDay = is_array($dayMeals) ? $dayMeals : [];
+                        $mealDataFormatted[$dayNum] = [
+                            'daily_total_cal' => (int) ($totals['calories'] ?? 0),
+                            'daily_total_cost' => (float) ($totals['price'] ?? 0),
+                            'meals' => $this->formatMealsForMobile($mealsForDay),
+                        ];
+                    }
+                }
+            }
+
+            return response()->json([
+                'success' => true,
+                'completed' => $completed,
+                'day_completed' => $currentDay,
+                'total_days' => $totalDays,
+                'progress' => $progress,
+                'status' => $session->status,
+                'meal_data' => $mealDataFormatted,
+            ]);
+        } catch (\Illuminate\Validation\ValidationException $e) {
+            return response()->json([
+                'success' => false,
+                'message' => 'Validation error',
+                'errors' => $e->errors()
+            ], 422);
+        } catch (\Exception $e) {
+            Log::error('[API] getGenerationStatus error: ' . $e->getMessage());
+            return response()->json([
+                'success' => false,
+                'message' => 'Failed to get status',
+                'error' => config('app.debug') ? $e->getMessage() : 'Internal server error'
+            ], 500);
+        }
+    }
+
+    /**
+     * Format stored meals to Flutter-friendly JSON (type, name, time, total_cal, total_price, ingredients).
+     */
+    private function formatMealsForMobile(array $meals): array
+    {
+        $out = [];
+        foreach ($meals as $meal) {
+            $ingredients = [];
+            foreach ($meal['ingredients'] ?? [] as $ing) {
+                $ingredients[] = [
+                    'name' => $ing['name'] ?? '',
+                    'amount' => $ing['amount'] ?? '',
+                    'price' => (float) ($ing['price'] ?? 0),
+                    'cal' => (int) ($ing['cal'] ?? 0),
+                    'protein' => (float) ($ing['protein'] ?? 0),
+                    'carbs' => (float) ($ing['carbs'] ?? 0),
+                    'fat' => (float) ($ing['fat'] ?? $ing['fats_per_100g'] ?? 0),
+                ];
+            }
+            foreach ($meal['sauces'] ?? [] as $s) {
+                $ingredients[] = [
+                    'name' => $s['name'] ?? '',
+                    'amount' => $s['amount'] ?? '',
+                    'price' => (float) ($s['price'] ?? 0),
+                    'cal' => (int) ($s['cal'] ?? 0),
+                    'protein' => (float) ($s['protein'] ?? 0),
+                    'carbs' => (float) ($s['carbs'] ?? 0),
+                    'fat' => (float) ($s['fat'] ?? $s['fats_per_100g'] ?? 0),
+                ];
+            }
+            $out[] = [
+                'type' => $meal['type'] ?? '',
+                'name' => $meal['name'] ?? '',
+                'time' => $meal['time'] ?? '',
+                'total_cal' => (int) ($meal['total_cal'] ?? 0),
+                'total_price' => (float) ($meal['total_price'] ?? 0),
+                'ingredients' => $ingredients,
+            ];
+        }
+        return $out;
     }
 
     /**
