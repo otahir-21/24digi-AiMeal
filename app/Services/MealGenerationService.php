@@ -119,8 +119,8 @@ class MealGenerationService
             'started_at' => now()->toDateTimeString()
         ]);
         
-        // Set max execution time for this process
-        set_time_limit(600); // 10 minutes max
+        // Set max execution time for this process (match Nginx/PHP-FPM 30 min)
+        set_time_limit(1800); // 30 minutes max
         
         try {
             $user = $session->user;
