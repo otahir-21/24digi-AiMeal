@@ -90,3 +90,18 @@ php artisan config:cache
 | 4 | **`php artisan config:clear`** (and optionally **`config:cache`**) |
 
 After this, **POST /api/v1/mobile/generate-meals/start** should return in under 2 seconds with `session_id`, and meal generation will run in the background. The Flutter app can then poll **POST /generate-meals/status** with that `session_id`.
+
+---
+
+## Clear all queue backlog (cancel pending jobs)
+
+If you have many stuck jobs or want a clean slate:
+
+```bash
+cd /var/www/24digi-AiMeal
+php artisan queue:clear
+```
+
+This deletes all rows from the `jobs` table so no pending job will run. Optional: clear failed jobs history with `php artisan queue:flush`.
+
+**Then** start the worker again and call **generate-meals/start** to create a **new** session; poll status with that new `session_id`.

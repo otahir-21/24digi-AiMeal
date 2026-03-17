@@ -535,10 +535,15 @@ class WebController extends Controller
             }
 
             $currentDay = session('current_day', 1);
-            $maxDays = 30;
+            // Use selected plan period from the initial form (defaults to 7 if not set)
+            $maxDays = (int) session('plan_period', 7);
 
             if ($currentDay > $maxDays) {
-                return response()->json(['error' => false, 'message' => "All 30 days completed!", 'completed' => true]);
+                return response()->json([
+                    'error' => false,
+                    'message' => "All {$maxDays} days completed!",
+                    'completed' => true
+                ]);
             }
 
             // Generate prompt
