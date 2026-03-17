@@ -964,7 +964,8 @@ class WebController extends Controller
             'Content-Type' => 'application/json',
         ])->timeout(120)->post('https://api.openai.com/v1/chat/completions', [
 
-            'model' => env('AI_MODEL', 'gpt-4o'),
+            // Use OPENAI_MODEL from .env so we can switch between gpt-4o and gpt-4o-mini easily
+            'model' => env('OPENAI_MODEL', 'gpt-4o'),
 
             'messages' => $messages,
 

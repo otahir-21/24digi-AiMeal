@@ -134,6 +134,14 @@ class MealGenerationService
             $totalPrice = 0;
             $totalMealsCount = 0;
 
+            // For weekly 7-day plans, generate all days in a single multi-day call to reduce
+            // API round trips and cost. Other strategies still use per-day generation below.
+            if ($session->generation_strategy === 'weekly' && (int) $session->total_days === 7) {
+                Log::info("[MEAL_GEN] Using multi-day generation strategy for session {$session->id}");
+                $this->processMultiDayGeneration($session);
+                return;
+            }
+
             // Try to connect to Realtime API
             $useRealtime = false;
             if ($this->realtimeAI->connect()) {
@@ -437,6 +445,147 @@ class MealGenerationService
     }
 
     /**
+     * Generate all 7 days for a weekly plan in a single OpenAI call.
+     * Expected JSON shape:
+     * {
+     *   "goal": "...",
+     *   "days": [
+     *     { "day": 1, "meals": [...], "daily_total": {...} },
+     *     ...
+     *   ]
+     * }
+     */
+    private function processMultiDayGeneration(MealSession $session): void
+    {
+        Log::info("[MEAL_GEN] 🔄 Starting multi-day generation for session {$session->id}", [
+            'total_days' => $session->total_days,
+        ]);
+
+        $user = $session->user;
+
+        // Reuse the single-day prompt as a base, but instruct the model to return all days at once
+        $basePrompt = $this->generatePrompt($user, 1, []);
+
+        $multiDayPrompt = $basePrompt . "\n\n"
+            . "IMPORTANT: Instead of generating ONLY day 1, generate meal plans for ALL days 1 to {$session->total_days}.\n"
+            . "Return a single JSON object with this exact structure:\n"
+            . "{\n"
+            . "  \"goal\": \"lose/gain/maintain\",\n"
+            . "  \"days\": [\n"
+            . "    {\n"
+            . "      \"day\": 1,\n"
+            . "      \"meals\": [...],\n"
+            . "      \"daily_total\": {\"calories\": 0, \"protein\": 0, \"carbs\": 0, \"fat\": 0, \"price\": 0}\n"
+            . "    },\n"
+            . "    { \"day\": 2, ... },\n"
+            . "    ... up to day {$session->total_days} ...\n"
+            . "  ]\n"
+            . "}\n"
+            . "Each element in \"days\" must follow the same meal structure you normally return for a single day.\n";
+
+        // Single OpenAI call for all days
+        $response = $this->generateWithRegularAPI($multiDayPrompt, []);
+
+        $cleaned = $this->cleanJsonResponse($response);
+        $data = json_decode($cleaned, true);
+
+        if (json_last_error() !== JSON_ERROR_NONE || !isset($data['days']) || !is_array($data['days'])) {
+            Log::error('[MEAL_GEN] Multi-day generation returned invalid JSON', [
+                'json_error' => json_last_error_msg(),
+                'raw' => $response,
+                'cleaned' => $cleaned,
+            ]);
+            throw new \Exception('Invalid JSON structure for multi-day generation');
+        }
+
+        $allMeals = [];
+        $dailyTotals = [];
+        $totalCalories = 0;
+        $totalProtein = 0;
+        $totalCarbs = 0;
+        $totalFat = 0;
+        $totalPrice = 0;
+        $totalMealsCount = 0;
+
+        // Store goal (from top-level or first day)
+        if (!empty($data['goal'])) {
+            $session->update([
+                'goal' => $data['goal'],
+                'goal_explanation' => $data['goal_explanation'] ?? null,
+            ]);
+        }
+
+        foreach ($data['days'] as $index => $dayEntry) {
+            $dayNumber = isset($dayEntry['day']) ? (int) $dayEntry['day'] : $index + 1;
+
+            // Update current day for tracking
+            $session->update(['current_day' => $dayNumber]);
+
+            $mealsForDay = $dayEntry['meals'] ?? [];
+            if (!is_array($mealsForDay)) {
+                $mealsForDay = [];
+            }
+
+            $allMeals[] = $mealsForDay;
+
+            // Use provided daily_total if present, otherwise calculate from meals
+            if (isset($dayEntry['daily_total']) && is_array($dayEntry['daily_total'])) {
+                $dayTotal = [
+                    'calories' => (float) ($dayEntry['daily_total']['calories'] ?? 0),
+                    'protein' => (float) ($dayEntry['daily_total']['protein'] ?? 0),
+                    'carbs' => (float) ($dayEntry['daily_total']['carbs'] ?? 0),
+                    'fat' => (float) ($dayEntry['daily_total']['fat'] ?? 0),
+                    'price' => (float) ($dayEntry['daily_total']['price'] ?? 0),
+                ];
+            } else {
+                $dayTotal = $this->calculateDayTotal($mealsForDay);
+            }
+
+            $dailyTotals[] = $dayTotal;
+
+            $totalCalories += $dayTotal['calories'];
+            $totalProtein += $dayTotal['protein'];
+            $totalCarbs += $dayTotal['carbs'];
+            $totalFat += $dayTotal['fat'];
+            $totalPrice += $dayTotal['price'];
+            $totalMealsCount += count($mealsForDay);
+
+            Log::info("[MEAL_GEN] Multi-day - processed day {$dayNumber} for session {$session->id}", [
+                'meal_count' => count($mealsForDay),
+                'day_total' => $dayTotal,
+            ]);
+        }
+
+        // Final session update
+        $session->update([
+            'meal_data' => json_encode($allMeals),
+            'daily_totals' => json_encode($dailyTotals),
+            'total_calories' => $totalCalories,
+            'total_protein' => $totalProtein,
+            'total_carbs' => $totalCarbs,
+            'total_fat' => $totalFat,
+            'total_price' => $totalPrice,
+            'total_meals' => $totalMealsCount,
+            'current_day' => $session->total_days,
+            'status' => 'completed',
+            'completed_at' => now(),
+        ]);
+
+        Log::info("[MEAL_GEN] 🎉 MULTI-DAY GENERATION COMPLETED", [
+            'session_id' => $session->id,
+            'total_days' => $session->total_days,
+            'total_meals_generated' => $totalMealsCount,
+            'totals' => [
+                'calories' => $totalCalories,
+                'protein' => $totalProtein,
+                'carbs' => $totalCarbs,
+                'fat' => $totalFat,
+                'price' => $totalPrice,
+            ],
+        ]);
+    }
+
+    /**
      * Generate prompt for AI
      */
     private function generatePrompt(User $user, $day, $conversationHistory = [])
@@ -684,7 +833,8 @@ JSON FORMAT ONLY:
             'Authorization' => 'Bearer ' . env('AI_API_KEY'),
             'Content-Type' => 'application/json'
         ])->timeout(60)->post('https://api.openai.com/v1/chat/completions', [
-            'model' => 'gpt-4o',
+            // Use OPENAI_MODEL from .env (e.g. gpt-4o-mini) so we can switch models without code changes
+            'model' => env('OPENAI_MODEL', 'gpt-4o'),
             'messages' => $messages,
             'max_tokens' => 1500,
             'temperature' => 0.7
