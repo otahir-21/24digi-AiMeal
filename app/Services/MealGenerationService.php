@@ -486,7 +486,7 @@ class MealGenerationService
         // Single OpenAI call for all days
         $response = $this->generateWithRegularAPI($multiDayPrompt, []);
 
-        $cleaned = $this->cleanJsonResponse($response);
+        $cleaned = $this->cleanJsonLikeResponse($response);
         $data = json_decode($cleaned, true);
 
         if (json_last_error() !== JSON_ERROR_NONE || !isset($data['days']) || !is_array($data['days'])) {
@@ -583,6 +583,31 @@ class MealGenerationService
                 'price' => $totalPrice,
             ],
         ]);
+    }
+
+    /**
+     * Clean a potentially markdown-wrapped JSON response (similar to WebController::cleanJsonResponse).
+     */
+    private function cleanJsonLikeResponse(string $response): string
+    {
+        $response = trim($response);
+
+        // Remove ```json or ``` fences if present
+        $response = preg_replace('/^```json\s*/i', '', $response);
+        $response = preg_replace('/^```\s*/', '', $response);
+        $response = preg_replace('/\s*```$/', '', $response);
+
+        $response = trim($response);
+
+        // Extract from first { to last } to remove any stray text
+        $firstBrace = strpos($response, '{');
+        $lastBrace = strrpos($response, '}');
+
+        if ($firstBrace !== false && $lastBrace !== false && $lastBrace > $firstBrace) {
+            $response = substr($response, $firstBrace, $lastBrace - $firstBrace + 1);
+        }
+
+        return trim($response);
     }
 
     /**
