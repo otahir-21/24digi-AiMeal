@@ -134,14 +134,6 @@ class MealGenerationService
             $totalPrice = 0;
             $totalMealsCount = 0;
 
-            // For weekly 7-day plans, generate all days in a single multi-day call to reduce
-            // API round trips and cost. Other strategies still use per-day generation below.
-            if ($session->generation_strategy === 'weekly' && (int) $session->total_days === 7) {
-                Log::info("[MEAL_GEN] Using multi-day generation strategy for session {$session->id}");
-                $this->processMultiDayGeneration($session);
-                return;
-            }
-
             // Try to connect to Realtime API
             $useRealtime = false;
             if ($this->realtimeAI->connect()) {
