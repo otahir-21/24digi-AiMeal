@@ -447,9 +447,9 @@ class MobileApiController extends Controller
                 ], 404);
             }
 
-            // Get latest completed session
+            // Get latest completed or partially_completed session
             $session = $user->mealSessions()
-                ->where('status', 'completed')
+                ->whereIn('status', ['completed', 'partially_completed'])
                 ->latest()
                 ->first();
 
@@ -1325,9 +1325,9 @@ class MobileApiController extends Controller
                 ], 404);
             }
 
-            // Get latest completed session
+            // Get latest completed or partially_completed session
             $session = $user->mealSessions()
-                ->where('status', 'completed')
+                ->whereIn('status', ['completed', 'partially_completed'])
                 ->latest()
                 ->first();
 
